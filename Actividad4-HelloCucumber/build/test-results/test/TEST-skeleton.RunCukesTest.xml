@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="skeleton.RunCukesTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-04-10T06:48:04" hostname="pieropr2k-IdeaPad-3-14IML05" time="0.159">
+  <properties/>
+  <testcase name="Enter to the project from the console" classname="skeleton.RunCukesTest" time="0.159">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'The user is with the project file' and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;The user is with the project file&quot;)&#10;public void the_user_is_with_the_project_file() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;The user selects the project&quot;)&#10;public void the_user_selects_the_project() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;The project should be rendered on a new window&quot;)&#10;public void the_project_should_be_rendered_on_a_new_window() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'The user is with the project file' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user is with the project file&quot;)
+public void the_user_is_with_the_project_file() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;The user selects the project&quot;)
+public void the_user_selects_the_project() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The project should be rendered on a new window&quot;)
+public void the_project_should_be_rendered_on_a_new_window() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

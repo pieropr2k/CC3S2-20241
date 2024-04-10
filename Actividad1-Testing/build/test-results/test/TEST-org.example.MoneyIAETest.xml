@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.MoneyIAETest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-03-28T16:03:41" hostname="pieropr2k-IdeaPad-3-14IML05" time="0.155">
+  <properties/>
+  <testcase name="[1] -123487" classname="org.example.MoneyIAETest" time="0.137"/>
+  <testcase name="[2] -5" classname="org.example.MoneyIAETest" time="0.003"/>
+  <testcase name="[3] -1" classname="org.example.MoneyIAETest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
