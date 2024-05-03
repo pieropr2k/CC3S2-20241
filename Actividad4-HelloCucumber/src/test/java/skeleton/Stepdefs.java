@@ -7,7 +7,6 @@ import io.cucumber.java.en.Then;
 
 
 public class Stepdefs {
-	
 	Belly belly = new Belly(); 
 	
     @Given("^I have eaten (\\d+) cukes$")

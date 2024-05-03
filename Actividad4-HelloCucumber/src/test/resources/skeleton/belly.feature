@@ -1,7 +1,30 @@
 Feature: BellyFeature
-  As user I wanna do this project
+  Scenario: Eaten many cukes and many hour, and growl
+    Given I have eaten 12 cukes
+    When I wait 3 hour
+    Then my belly should growl
 
-  Scenario: Enter to the project from the console
-    Given The user is with the project file
-    When The user selects the project
-    Then The project should be rendered on a new window
+  Scenario: Eaten many hours but cukes is the minimal, and not growl
+    Given I have eaten 10 cukes
+    When I wait 4 hour
+    Then my belly should not growl
+
+  Scenario: Eaten many cukes but hour is the minimal, and growl
+    Given I have eaten 12 cukes
+    When I wait 2 hour
+    Then my belly should growl
+
+  Scenario: Cukes under the required, and not growl
+    Given I have eaten 8 cukes
+    When I wait 3 hour
+    Then My belly should not growl
+
+  Scenario: Hour under the required, and not growl
+    Given I have eaten 12 cukes
+    When I wait 1 hour
+    Then My belly should not growl
+
+  Scenario: Both are under the minimal required, and not growl
+    Given I have eaten 6 cukes
+    When I wait 1 hour
+    Then My belly should not growl

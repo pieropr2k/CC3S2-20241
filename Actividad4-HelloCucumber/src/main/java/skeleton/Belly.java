@@ -20,8 +20,8 @@ public class Belly {
 		}
 	}
     
-	public boolean isGrowling() { 
-		return timeWaited >= 2 && eatenCucumbers > 10; 
+	public boolean isGrowling() {
+		return timeWaited >= 2 && eatenCucumbers > 10;
 	}
 	
 }
