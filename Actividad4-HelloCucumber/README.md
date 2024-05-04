@@ -2,10 +2,10 @@
 
 En esta actividad tenemos un código que hace la simulacion de un estomago (Belly) el cual come pepinos y espera un tiempo necesario (donde no come pepinos) y dependiendo de eso gruñe o no.
 
-![](img/belly_class.png)
+La clase Belly (estomago) tiene 2 variables las cuales son eatenCucumbers y timeWaited para calcular la cantidad de pepinos comidos y tiempo esperado. <br/>
+Solo si el tiempo esperado (timeWaited) es mayor igual que 2 y ha comido mas de 10 pepinos (eatenCucumbers) entonces el estomago va a gruñir. Este es el código:
 
-La clase Belly (estomago) tiene 2 variables (eatenCucumbers & timeWaited) para calcular la cantidad de pepinos comidos y tiempo esperado. <br/>
-Solo si el tiempo esperado (timeWaited) es mayor igual que 2 y ha comido mas de 10 pepinos (eatenCucumbers) entonces el estomago va a gruñir.
+![](img/belly_class.png)
 
 Para poder realizar las pruebas debemos tomar en cuenta los siguientes casos:
 
