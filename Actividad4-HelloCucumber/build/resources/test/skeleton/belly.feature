@@ -1,6 +1,4 @@
 Feature: BellyFeature
-  ##As user I wanna do this project
-
   Scenario: Eaten many cukes and many hour, and growl
     Given I have eaten 12 cukes
     When I wait 3 hour
@@ -26,7 +24,7 @@ Feature: BellyFeature
     When I wait 1 hour
     Then My belly should not growl
 
-  Scenario: Both are under the minimal required, and not growl
+  Scenario: Cukes and hour are under the minimal required, and not growl
     Given I have eaten 6 cukes
     When I wait 1 hour
     Then My belly should not growl
