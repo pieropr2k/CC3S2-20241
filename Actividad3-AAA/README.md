@@ -272,12 +272,12 @@ Los pasos para contruir y ejecutar las pruebas con Gradle son los siguientes:
    - Assert : comparar la salida con el resultado esperado
   
 Resultados de las pruebas:
-Independientemente del editor o IDE que uses, puedes usar la terminal y ejecutar `./gradlew test`.
+Ejecutar `./gradlew test`.
 
 Se verá lo siguiente:
 
 ![](images/gradlew.png)
 
-En Visual Studio Code, si usamos la extension `Java Runner`, podemos correr la clase `CalculatorTest.java` y ver lo siguiente:
+Estos son los outputs de todas las pruebas unitarias:
 
 ![](images/tests_output.png)
