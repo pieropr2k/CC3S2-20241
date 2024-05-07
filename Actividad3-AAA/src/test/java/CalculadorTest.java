@@ -1,7 +1,6 @@
 import org.example.main.Calculador;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import static org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculadorTest {
@@ -18,7 +17,7 @@ public class CalculadorTest {
     }
 
     @Test
-    public void testSum_PositiveNumbers_ShouldReturnCorrectSum() {
+    public void testSumPositiveNumbers_ShouldReturnCorrectSum() {
         // Arrange was in BeforeEach
         // Act
         int resultado = calculador.
@@ -28,7 +27,41 @@ public class CalculadorTest {
     }
 
     @Test
-    public void testSubstraction_PositiveNumbers_ShouldReturnCorrectSum() {
+    public void testSumNegativeNumbers_ShouldReturnCorrectSum() {
+        // Arrange
+        numeroA = -10;
+        numeroB = -5;
+        // Act
+        int resultado = calculador.
+                sumar(numeroA, numeroB);
+        // Assert
+        assertEquals(-15, resultado, "(-10) + (-5) deberia ser -15");
+    }
+
+    @Test
+    public void testSumNegativeWithPositive_ShouldReturnCorrectSum() {
+        // Arrange
+        numeroA = -10;
+        // Act
+        int resultado = calculador.
+                sumar(numeroA, numeroB);
+        // Assert
+        assertEquals(-5, resultado, "(-10) + (5) deberia ser -5");
+    }
+
+    @Test
+    public void testSumPositiveWithNegative_ShouldReturnCorrectSum() {
+        // Arrange
+        numeroB = -5;
+        // Act
+        int resultado = calculador.
+                sumar(numeroA, numeroB);
+        // Assert
+        assertEquals(5, resultado, "10 + (-5) deberia ser 5");
+    }
+
+    @Test
+    public void testSubtractionPositiveNumbers_ShouldReturnCorrectSubtr() {
         // Arrange was in BeforeEach
         // Act
         int resultado = calculador.restar(numeroA, numeroB);
@@ -37,7 +70,27 @@ public class CalculadorTest {
     }
 
     @Test
-    public void testMult_PositiveNumbers_ShouldReturnCorrectSum() {
+    public void testSubtractionNegativeWithPositive_ShouldReturnCorrectSubtr() {
+        // Arrange
+        numeroA = -10;
+        // Act
+        int resultado = calculador.restar(numeroA, numeroB);
+        // Assert
+        assertEquals(-15, resultado, "-10 - 5 deberia ser -15");
+    }
+
+    @Test
+    public void testSubtractionPositiveWithNegative_ShouldReturnCorrectSubtr() {
+        // Arrange
+        numeroB = -5;
+        // Act
+        int resultado = calculador.restar(numeroA, numeroB);
+        // Assert
+        assertEquals(15, resultado, "10 - (-5) deberia ser 15");
+    }
+
+    @Test
+    public void testMultiplyPositiveNumbers_ShouldReturnCorrectMult() {
         // Arrange was in BeforeEach
         // Act
         int resultado = calculador.multiplicacion(numeroA, numeroB);
@@ -46,7 +99,17 @@ public class CalculadorTest {
     }
 
     @Test
-    public void testDivision_PositiveNumbers_ShouldReturnCorrectSum() {
+    public void testMultiplyNumberWithZero_ShouldReturnCorrectMult() {
+        // Arrange
+        numeroB = 0;
+        // Act
+        int resultado = calculador.multiplicacion(numeroA, numeroB);
+        // Assert
+        assertEquals(0, resultado, "10 * 0 deberia ser 0");
+    }
+
+    @Test
+    public void testDivisionPositiveNumbers_ShouldReturnCorrectDiv() {
         // Arrange was in BeforeEach
         // Act
         double resultado = calculador.division(numeroA, numeroB);
@@ -54,11 +117,55 @@ public class CalculadorTest {
         assertEquals(2, resultado, "10 / 5 deberia ser 2");
     }
 
+    @Test
+    public void testDivisionNegativeNumbers_ShouldReturnCorrectDiv() {
+        // Arrange
+        numeroA = -10;
+        numeroB = -5;
+        // Act
+        double resultado = calculador.division(numeroA, numeroB);
+        // Assert
+        assertEquals(2, resultado, "-10 / -5 deberia ser 2");
+    }
 
     @Test
-    public void testDivisionByZero_PositiveNumbers_ShouldReturnCorrectSum() {
+    public void testDivisionPositiveWithNegative_ShouldReturnCorrectDiv() {
         // Arrange
-        numeroA = 10;
+        numeroB = -5;
+        // Act
+        double resultado = calculador.division(numeroA, numeroB);
+        // Assert
+        assertEquals(-2, resultado, "10 / -5 deberia ser -2");
+    }
+
+    @Test
+    public void testDivisionNegativeWithPositive_ShouldReturnCorrectDiv() {
+        // Arrange
+        numeroA = -10;
+        // Act
+        double resultado = calculador.division(numeroA, numeroB);
+        // Assert
+        assertEquals(-2, resultado, "-10 / 5 deberia ser -2");
+    }
+
+    @Test
+    public void testDivisionNumberByZero_ShouldThrowException() {
+        // Arrange
+        numeroA = -10;
+        numeroB = 0;
+
+        // Act
+        Exception exception = assertThrows(ArithmeticException.class, () -> calculador.division(numeroA, numeroB));
+
+        // Assert
+        assertNotNull(exception);
+        assertEquals("Division por cero", exception.getMessage());
+    }
+
+    @Test
+    public void testDivisionZeroByZero_ShouldThrowException() {
+        // Arrange
+        numeroA = 0;
         numeroB = 0;
 
         // Act

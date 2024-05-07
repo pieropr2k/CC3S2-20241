@@ -19,6 +19,9 @@ buildscript {
 
 plugins {
     id "info.solidsoft.pitest" version "1.7.0" // Updated
+    id "org.sonarqube" version "3.5.0.2730"
+    id 'java-library'
+    id "jacoco"
 }
 
 // Apply the java-library plugin to add support for Java Library
@@ -70,3 +73,14 @@ pitest {
     targetClasses = ['microwave.*']  // Adjusted to match your package structure
 }
 
+sonar {
+    properties {
+        property "sonar.projectKey", "CodigoEstatico1"
+        property "sonar.login", "sqp_b39da3efc6bc2a977b4317fee5b73a6929975399"
+        property "sonar.host.url", "http://localhost:9000"
+    }
+}
+//        ./gradlew sonar \
+//  -Dsonar.projectKey=CodigoEstatico1 \
+//  -Dsonar.host.url=http://localhost:9000 \
+//  -Dsonar.login=sqp_b39da3efc6bc2a977b4317fee5b73a6929975399
