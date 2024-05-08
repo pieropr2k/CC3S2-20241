@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.wordz.domain.WordTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-03T06:31:29" hostname="pieropr2k-IdeaPad-3-14IML05" time="0.284">
+<testsuite name="com.wordz.domain.WordTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-05-08T07:20:13" hostname="pieropr2k-IdeaPad-3-14IML05" time="0.059">
   <properties/>
-  <testcase name="allScoreCombinations()" classname="com.wordz.domain.WordTest" time="0.284"/>
+  <testcase name="allScoreCombinations()" classname="com.wordz.domain.WordTest" time="0.051"/>
+  <testcase name="secondLetterWrongPosition()" classname="com.wordz.domain.WordTest" time="0.002"/>
+  <testcase name="oneIncorrectLetter()" classname="com.wordz.domain.WordTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
