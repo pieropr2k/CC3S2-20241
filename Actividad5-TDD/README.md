@@ -39,13 +39,13 @@ public void oneCorrectLetter() {
 }
 ```
 
-<p style="color:red;">1. RED</p>
+<span style="color:red;">1. RED</span>
 
 Veamos como funciona la prueba: se esperaba CORRECT pero se obtuvo INCORRECT. Esto se debe a que siempre letter() devuelve INCORRECT (no tiene ninguna logica implementada aun en assess()).
 
 ![outs](images/oneincorrectbad.png)
 
-<p style="color:green;">2. GREEN</p>
+<span style="color:green;">2. GREEN</span>
 
 Ahora a mejorar el código de las clases que estan en main para que la prueba pase, en este caso el metodo assess() en Score ahora verificara si el caracter en la posición **position** de ambas cadenas es el mismo y si esto se cumple se almacena Letter.CORRECT en la variable de instancia resultado.
 
@@ -89,7 +89,7 @@ El método guess() de la clase Word llama al método assess() de Score que hace 
 Se puede ver que las pruebas pasan
 
 
- <p style="color:blue;">3. REFACTOR</p>
+ <span style="color:blue;">3. REFACTOR</span>
 
 El codigo esta mejorable.
 Una vez que se ejecutaron las pruebas y pasaron,  pero hay que hacer que el codigo sea lo mas optimo posible. Por lo que ahora trataremos de controlar los code smells...
@@ -163,14 +163,14 @@ void secondLetterWrongPosition() {
 }
 ```
 
- <p style="color:red;">1. RED</p>
+<span style="color:red;">1. RED</span>
  
  Podemos ver que la prueba no pasó y es rojo:
 
 ![alt text](images/secondletteroutput.png)
 
 
- <p style="color:green;">2. GREEN</p>
+<span style="color:green;">2. GREEN</span>
 
 Ahora toca corregir el codigo de main para que esta prueba pase
 
@@ -234,14 +234,14 @@ La siguiente prueba verifica 3 posibles resultados (adicionando INCORRECT), por 
 ```
 
 
- <p style="color:red;">1. RED</p>
+ <span style="color:red;">1. RED</span>
 
 
 Podemos ver que la prueba esta en rojo. Esto se debe a que no existe el caso INCORRECT aun.
 
-![outbad](Imagenes/allscoreincorrect.png)
+![outbad](images/allscoreincorrect.png)
 
- <p style="color:green;">2. GREEN</p>
+ <span style="color:green;">2. GREEN</span>
 
 En este codigo lo que se hace es pasar los resultados para cada letra en un arreglo results
 
@@ -284,7 +284,7 @@ Este codigo pasa nuestra prueba como se puede ver en la imagen:
 
 
 
-<p style="color:blue;">3. REFACTOR</p>
+<span style="color:blue;">3. REFACTOR</span>
 
 Estuvo muy bueno que las pruebas hayan pasado, ahora se refactorizara el codigo:
 
