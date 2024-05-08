@@ -26,7 +26,7 @@ public class Score {
 En este caso aplicaremos el ciclo de refactorización RGR (red, green, refactor)
 
 
-### 1er ciclo TDD
+### TDD 1
 
 Esta prueba unitaria verifica si la letra de la primera posicion (osea 0) que corresponde a la palabra correcta y la palabra intento coinciden.
 
@@ -144,13 +144,13 @@ Ya que las pruebas corrieron y ahora tenemos un codigo mas limpio por lo que pod
 ![outs](images/testoutputs1.png)
 
 
-### 2do ciclo TDD
+### TDD 2
 
-Llegados a este punto, podemos decir que hemos abarcado el codigo para palabras de una sola letra, por lo que ahora introduciremos pruebas para 2 letras...
+De lo hecho en el TDD-1 se puede ver que el problema solo se ha contextualizado a palabras de una sola letra, por lo que ahora se hará casos para 2 letras.
 
-Para esto esto necesitamos introducir un nuevo concepto : una letra puede estar presente en la palabra, pero no en la posición que adivinamos (PART_CORRECT).
+Ahora vamos a introducir un nuevo método el cual indica que una letra puede estar presente en la palabra, pero no en la posición que adivinamos y se tiene que retornar PART_CORRECT.
 
-Empecemos escribiendo la prueba...
+Ahora pondremos esto mencionado de manera practica:
 
 Esta prueba verifica que la letra de la posicion 1 de la palabra adivinar "ZA" sea parcialmente correcta (ya que se encuentra en la palabra word en la posicion 0 pero no la posicion 1)
 
@@ -216,7 +216,7 @@ Podemos ver que las pruebas pasan:
 ![outs](images/testoutputs2.png)
 
 
-### 3er ciclo TDD
+### TDD 3
 
 La prueba anterior estuvo bien, sin embargo tiene sus limitantes. Ya que si bien la prueba puede pasar pero es porque no estamos evaluando otras posibilidades, falta una posibilidad y es si la letra no cumple ninguna de las condiciones: osea no esta en la posicion correcto ni se encuentra en alguna posicion de la palabra a adivinar.
 
