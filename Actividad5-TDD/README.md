@@ -92,9 +92,9 @@ Se puede ver que las pruebas pasan
  <span style="color:blue;">3. REFACTOR</span>
 
 El codigo esta mejorable.
-Una vez que se ejecutaron las pruebas y pasaron,  pero hay que hacer que el codigo sea lo mas optimo posible. Por lo que ahora trataremos de controlar los code smells...
+Si bien se ejecutaron las pruebas y pasaron, hay que hacer que el codigo sea lo mas optimo posible. Por lo que ahora trataremos de controlar los code smells.
 
-Podemos extraer la comparacion del metodo assess() e implementarla en un metodo isCorrectLetter() de tal forma que todo este entendible:
+De esta parte del código de la clase Score podemos extraer la comparacion del metodo assess() e implementarla en un metodo isCorrectLetter() de tal forma que todo este entendible:
 
 ```java
 public void assess(int position, String attempt) {
