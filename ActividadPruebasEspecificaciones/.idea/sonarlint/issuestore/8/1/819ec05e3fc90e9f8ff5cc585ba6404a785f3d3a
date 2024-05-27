@@ -1,0 +1,5 @@
+
+”
+java:S3577"КRename class "StringUtils" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ЌлєТы€€€€8зҐЙўы1J$7ad914a4-99d8-446c-8dbd-d2d6aae61d3e
+f
+java:S5786"Remove this 'public' modifier.(ЌлєТы€€€€8иҐЙўы1J$ce015c6d-d9aa-4feb-8adb-3f6ac3cd10df

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="org.example.Sprint1" target="17" />
+      <module name="org.example.Sprint1.main" target="17" />
+      <module name="org.example.Sprint1.test" target="17" />
+      <module name="Sprint2.Sprint1" target="17" />
+      <module name="Sprint2.Sprint1.main" target="17" />
+      <module name="Sprint2.Sprint1.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

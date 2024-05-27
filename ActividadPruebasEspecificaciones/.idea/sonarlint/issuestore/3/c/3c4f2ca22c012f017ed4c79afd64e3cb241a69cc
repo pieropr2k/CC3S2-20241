@@ -1,0 +1,10 @@
+
+›	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(£Ç²¤8Ãù…Ùû1J$cc3d720a-40e9-4267-8754-27a24522f634
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(² ‰Ãùÿÿÿÿ8È‡Ùû1
+‚
+java:S1118":Add a private constructor to hide the implicit public one.(¬„Íıÿÿÿÿ8Îù…Ùû1J$1185a2a7-b541-4caa-b0d2-df8b072b414a
+i
+java:S1168"&Return an empty array instead of null.(¥¹ï8Òù…Ùû1J$d12e1dbc-4623-4ead-bb6a-6ef47f07dc54
+i
+java:S1168$"&Return an empty array instead of null.(¥¹ï8Øù…Ùû1J$3531516a-8dbf-44d5-bd87-c45ca20a5f0a

@@ -1,30 +1,34 @@
-Esta es la clase inicial, se nos pide refactorizar el codigo aplicando los principios de SOLID
+**Ejercicio 1:**
+
+Se nos pide hacer un codigo de prueba considerando las entradas str = "axcaycazc", open = "a" y close
+= "c".
+El codigo de la prueba unitaria es este:
 
 ```
-public class BlogManager {
-    private List<String> articles = new ArrayList<>();
+    @Test
+    void exercise1Case() {
+        assertThat(StringUtils.substringsBetween("axcaycazc", "a", "c")).isEqualTo(new String[] {  });
+    }
+```
+Este es la prueba ejecutada: <br/>
+![](img/exercise1.png)
 
-    public void addArticle(String article) {
-        if (article != null && !article.isEmpty()) {
-            articles.add(article);
-            System.out.println("Artículo añadido: " + article);
-            saveArticleToDatabase(article);
-        }
+De momento estamos en fase roja
+Al hacer la prueba se ve que no pasa y se devuelven un conjunto de variables.
+Esto indica que lo que hace el codigo es de un string (str) ve el conjunto de caracteres que esta entre los caracteres *open* y *close*.
+
+Para que este en fase verde lo que haremos es poner las variables devueltas por la consola en nuestra prueba unitaria.
+
+```
+    @Test
+    void exercise1Case() {
+        assertThat(StringUtils.substringsBetween("axcaycazc", "a", "c")).isEqualTo(new String[] { "x", "y", "z" });
     }
-    private void saveArticleToDatabase(String article) {
-        // Simulación de guardar en la base de datos
-        System.out.println("Guardando en la base de datos: " + article);
-    }
-    public void printAllArticles() {
-        for (String article : articles) {
-            System.out.println("Artículo: " + article);
-        }
-    }
-}
 ```
 
-Single-responsibility Principle (SRP): Este principio dice que cada clase debe tener su propio proposito. Asi que separaremos el codigo anterior en 2 clases: la clase BlogManager lo que hace es administrar la lista de articulos (articles) esto lo hace mediante el metodo addArticle() para añadir cada articulo y printAllArticles() para imprimir y ver los datos de cada articulo, y la clase MySQLConnection su proposito es guardar el articulo agregado en la base de datos y esto lo hace con el metodo saveArticle().
-Ademas vamos a añadirle un contructor a la clase BlogManager para tener un atributo de la clase MySQLConnection para que esta haga su trabajo con su metodo previamente mencionado.
+Con esto pasamos a la fase verde ya que la prueba pasa.
+
+**Ejercicio 2:**
 
 ```
 import java.util.ArrayList;
@@ -61,7 +65,7 @@ public class MySQLConnection {
 }
 ```
 
-Principio de Abierto/Cerrado (OCP): En la clase BlogManager si bien no hay la necesidad de escribir un condicional if-else el cual rompe con este principio (y es un ejemplo comun al mostrar la utilidad de este principio). Al añadirle a esta clase un atributo de la clase DBConnection, esto hace que BlogManager ahora este abierto para la extensión y cerrado para la modificación, ya que podemos cambiar la implementación de DBConnection sin modificar BlogManager.
+**Principio de Abierto/Cerrado (OCP):** En la clase BlogManager si bien no hay la necesidad de escribir un condicional if-else el cual rompe con este principio (y es un ejemplo comun al mostrar la utilidad de este principio). Al añadirle a esta clase un atributo de la clase DBConnection, esto hace que BlogManager ahora este abierto para la extensión y cerrado para la modificación, ya que podemos cambiar la implementación de DBConnection sin modificar BlogManager.
 
 ```
 public interface DBConnection {
@@ -78,10 +82,9 @@ public class MySQLConnection implements DBConnection {
 ```
 
 
-Liskov Substitution Principle (LSP): Indica que los objetos de una clase derivada deben ser sustituibles por objetos de su clase base sin alterar el comportamiento correcto del programa. Sin embargo en nuestro analisis no es necesario hacer una subclase de alguna de las mencionadas.
+**Liskov Substitution Principle (LSP):** Indica que los objetos de una clase derivada deben ser sustituibles por objetos de su clase base sin alterar el comportamiento correcto del programa. Sin embargo en nuestro analisis no es necesario hacer una subclase de alguna de las mencionadas.
 
-
-Dependency Inversion Principle (DIP): Se crea la interfaz ArticleRepository para que la clase BlogManager (modulo de alto nivel) no dependa directamente de xArticleRepository (modulo de bajo nivel) sino dependa de su abstraccion la cual es la interfaz creada.
+**Dependency Inversion Principle (DIP):** Se crea la interfaz ArticleRepository para que la clase BlogManager (modulo de alto nivel) no dependa directamente de xArticleRepository (modulo de bajo nivel) sino dependa de su abstraccion la cual es la interfaz creada.
 
 
 Ya que nos quedamos con el mal sabor por no poder usar el Principio de Segregación de Interfaz ni el Principio de Sustitucion de Liskov, extenderemos el codigo.
@@ -143,7 +146,7 @@ public class EthBlockchainConnection implements DBConnection {
 }
 ```
 
-Principio de Sustitucion de Liskov: este principio menciona que si tienes una clase hija, esta clase hija no debe eliminar comportamiento de la clase padre y puede sustituirla. En este caso crearemos el metodo DeletableBlogManager ya que se quiere crear un metodo delete el cual BlogManager no tiene, para asi sustituirla en caso se quiera eliminar un articulo.
+**Principio de Sustitucion de Liskov:** este principio menciona que si tienes una clase hija, esta clase hija no debe eliminar comportamiento de la clase padre y puede sustituirla. En este caso crearemos el metodo DeletableBlogManager ya que se quiere crear un metodo delete el cual BlogManager no tiene, para asi sustituirla en caso se quiera eliminar un articulo.
 
 ```
 import java.util.ArrayList;
