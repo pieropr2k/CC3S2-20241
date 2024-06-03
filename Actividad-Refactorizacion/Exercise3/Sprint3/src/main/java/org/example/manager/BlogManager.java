@@ -21,7 +21,7 @@ public class BlogManager {
     }
 
     public void printAllArticles() {
-        if (articles.size() == 0) {
+        if (articles.isEmpty()) {
             System.out.println("No hay artículos registrados.");
             return ;
         }

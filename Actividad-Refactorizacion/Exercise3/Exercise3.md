@@ -2,7 +2,7 @@
 
 Esta es la clase inicial, se nos pide refactorizar el codigo aplicando los principios de SOLID
 
-```
+```java
 public class BlogManager {
     private List<String> articles = new ArrayList<>();
 
@@ -14,7 +14,6 @@ public class BlogManager {
         }
     }
     private void saveArticleToDatabase(String article) {
-        // Simulación de guardar en la base de datos
         System.out.println("Guardando en la base de datos: " + article);
     }
     public void printAllArticles() {
@@ -29,7 +28,7 @@ public class BlogManager {
 Ademas vamos a añadirle un contructor a la clase BlogManager para tener un atributo de la clase MySQLConnection para que esta haga su trabajo con su metodo previamente mencionado. <br/>
 Este principio estara en el código del Sprint1:
 
-```
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -58,7 +57,6 @@ public class BlogManager {
 
 public class MySQLConnection {
     public void saveArticle(String article) {
-        // Simulación de guardar en la base de datos
         System.out.println("Guardando en la base de datos: " + article);
     }
 }
@@ -66,7 +64,7 @@ public class MySQLConnection {
 
 **Principio de Abierto/Cerrado (OCP):** En la clase BlogManager si bien no hay la necesidad de escribir un condicional if-else el cual rompe con este principio (y es un ejemplo comun al mostrar la utilidad de este principio). Al añadirle a esta clase un atributo de la clase DBConnection, esto hace que BlogManager ahora este abierto para la extensión y cerrado para la modificación, ya que podemos cambiar la implementación de DBConnection sin modificar BlogManager.
 
-```
+```java
 public interface DBConnection {
     void saveArticle(String article);
 }
@@ -74,7 +72,6 @@ public interface DBConnection {
 public class MySQLConnection implements DBConnection {
     @Override
     public void saveArticle(String article) {
-        // Simulación de guardar en la base de datos
         System.out.println("Guardando en la base de datos: " + article);
     }
 }
@@ -97,7 +94,7 @@ Hasta acá todo bien, ¿pero que tal si queremos usar la Blockchain como Base de
 Hay que considerar que en el mundo Blockchain al hacer operaciones delete no se puede eliminar información de manera absoluta ya que tiene naturaleza inmutable. <br/>
 Para esto crearemos la clase EthBlockchainConnection:
 
-```
+```java
 public interface DBConnection {
     void saveArticle(String article);
     void deleteArticle(String article);
@@ -106,7 +103,6 @@ public interface DBConnection {
 public class EthBlockchainConnection implements DBConnection {
     @Override
     public void saveArticle(String article) {
-        // Simulación de guardar en la base de datos
         System.out.println("Guardando en la base de datos: " + article);
     }
 }
@@ -115,7 +111,7 @@ public class EthBlockchainConnection implements DBConnection {
 Sin embargo EthBlockchainConnection lanzara errores ya que no esta implementando el metodo deleteArticle(), esto ademas de romper el programa rompe el Principio de Segregación de Interfaz.
 Para respetar este principio crearemos la clase DeletableDBConnection la cual extendera DBConnection y añadera un nuevo metodo el cual es deleteArticle, para que asi la clase EthBlockchainConnetion no se vea forzada a implementar el metodo deleteArticle().
 
-```
+```java
 public interface DBConnection {
     void saveArticle(String article);
 }
@@ -127,21 +123,18 @@ public interface DeleteableDBConnection extends DBConnection {
 public class MySQLConnection implements DeleteableDBConnection {
     @Override
     public void saveArticle(String article) {
-        // Simulación de guardar en la base de datos
         System.out.println("Guardando en la base de datos: " + article);
     }
 
     @Override
     public void deleteArticle(String article) {
-        // Simulación de guardar en la base de datos
-        System.out.println("Guardando en la base de datos: " + article);
+        System.out.println("Eliminando de la base de datos: " + article);
     }
 }
 
 public class EthBlockchainConnection implements DBConnection {
     @Override
     public void saveArticle(String article) {
-        // Simulación de guardar en la base de datos
         System.out.println("Guardando en la base de datos: " + article);
     }
 }
@@ -149,7 +142,7 @@ public class EthBlockchainConnection implements DBConnection {
 
 **Principio de Sustitucion de Liskov:** este principio menciona que si tienes una clase hija, esta clase hija no debe eliminar comportamiento de la clase padre y puede sustituirla. En este caso crearemos el metodo DeletableBlogManager ya que se quiere crear un metodo delete el cual BlogManager no tiene, para asi sustituirla en caso se quiera eliminar un articulo.
 
-```
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -178,8 +171,7 @@ public class BlogManager {
 
 public class DeletableBlogManager extends BlogManager{
     private DeletableDBConnection deletableArticleDatabase;
-
-    // Constructor para repositorios que soportan guardar y eliminar artículos
+    
     public DeletableBlogManager(DeletableDBConnection deletableArticleDatabase) {
         super(deletableArticleDatabase);
         this.deletableArticleDatabase = deletableArticleDatabase;
@@ -196,7 +188,7 @@ public class DeletableBlogManager extends BlogManager{
 
 Este es el código final y esta de manera organizada en la carpeta Sprint3:
 
-```
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -225,8 +217,7 @@ public class BlogManager {
 
 public class DeletableBlogManager extends BlogManager{
     private DeletableDBConnection deletableArticleDatabase;
-
-    // Constructor para repositorios que soportan guardar y eliminar artículos
+    
     public DeletableBlogManager(DeletableDBConnection deletableArticleDatabase) {
         super(deletableArticleDatabase);
         this.deletableArticleDatabase = deletableArticleDatabase;
@@ -244,28 +235,25 @@ public interface DBConnection {
     void saveArticle(String article);
 }
 
-public interface NonBlockchainDBConnection {
+public interface DeletableDBConnection extends DBConnection {
     void deleteArticle(String article);
 }
 
-public class MySQLConnection implements DBConnection, NonBlockchainDBConnection {
+public class MySQLConnection implements DeletableDBConnection {
     @Override
     public void saveArticle(String article) {
-        // Simulación de guardar en la base de datos
         System.out.println("Guardando en la base de datos: " + article);
     }
 
     @Override
     public void deleteArticle(String article) {
-        // Simulación de guardar en la base de datos
-        System.out.println("Guardando en la base de datos: " + article);
+        System.out.println("Eliminando de la base de datos: " + article);
     }
 }
 
 public class EthBlockchainConnection implements DBConnection {
     @Override
     public void saveArticle(String article) {
-        // Simulación de guardar en la base de datos
         System.out.println("Guardando en la base de datos: " + article);
     }
 }

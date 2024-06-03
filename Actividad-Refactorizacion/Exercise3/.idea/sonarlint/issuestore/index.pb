@@ -25,11 +25,13 @@ o
 ?Sprint3/src/main/java/org/example/database/MySQLConnection.java,5/c/5ccbaddcc28a7600b8c0870a6c8a2cc4fd56b8b3
 j
 :Sprint3/src/main/java/org/example/manager/BlogManager.java,2/8/284f9434cc1ee274197df5ebae353c4a120fed94
-v
-FSprint3/src/main/java/org/example/database/DeleteableDBConnection.java,1/1/11fdd8dc31df0a0217f79ab4b62eec4277302b95
 w
 GSprint3/src/main/java/org/example/database/EthBlockchainConnection.java,5/4/54de3cc80461c988aef6f56378468b3660229f5f
 s
 CSprint3/src/main/java/org/example/manager/DeletableBlogManager.java,7/a/7a8178b0eb1ed361ccfdd9164fcfedb38b020edb
 l
 <Sprint3/src/main/java/org/example/database/DBConnection.java,2/9/2932877850fb38c067c67ecadff667dd25e52061
+u
+ESprint3/src/main/java/org/example/database/DeletableDBConnection.java,9/5/957821f084d164be3053dcad8c016bfd5135c4fe
+o
+?Sprint1/src/main/java/org/example/database/MySQLConnection.java,8/6/86d3e1fdf5dfab2dbdee8176b9a2aa5fcc6feaac
