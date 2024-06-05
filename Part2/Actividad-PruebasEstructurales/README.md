@@ -304,43 +304,18 @@ public class CountWordsRefactorizedTest {
 ### Parte B: Informe final
 3. Genera un informe final de cobertura después de todas las modificaciones y nuevas pruebas.
 
-![](img/ex6_jacoco_methods)
-![](img/ex6_jacoco_code)
+![](img/ex6_jacoco_methods.png)
+![](img/ex6_jacoco_code.png)
 
 4. Compara el informe final con el informe inicial y discute los cambios y mejoras en la cobertura de código.
 
-![](img/ex2_jacoco_methods)
+![](img/ex2_jacoco_methods.png)
 
 Haciendo la comparativa, se puede ver que el coverage tanto en el informe inicial y en el informe final son los mismos (y de 100%). 
 Sin embargo el codigo del informe final es mas optimo debido a que se consideran mas casos como por ejemplo si el string es vacio o si el string termina en cualquier cosa menos en un caracter (numero, punto, espacio en blanco, etc) y gracias a la refactorizacion ponemos un filtro para que estos casos no se pasen.
 
 
 ### Ejercicio 7: presenta un gráfico de flujo de control (CFG) del programa CountWords
-
-
-
-**Linea 1:**
-Es una prueba unitaria donde como parametro tenemos 2 palabras que terminan en "r", se espera un retorno de 2 y esto indica que **siempre** se ejecuta lo que hay dentro de la condicional en este caso.
-
-Añadimos este unit test a la clase CountWordTest. <br/>
-
-**Analisis de cobertura con Jacoco:** <br/>
-
-ex3_jacoco_methods
-
-ex3_jacoco_code
-
-![](img/ex3_jacoco_methods.png)
-
-Jacoco indica en el metodo count() un coverage del 100% esto es debido a que una vez analizado el caso de las palabras que terminan en "r" ya tenemos todos los casos posibles a testear.
-
-
-
-
-
-
-
-
 
 
 
@@ -556,9 +531,14 @@ Define los siguientes términos:
 Es una versión modificada del programa original, creada introduciendo pequeños cambios llamados mutaciones. 
 Normalmente suelen ser alteraciones simples en el código, como cambiar un operador aritmético, lógico o una constante. 
 Los casos de prueba tienen que detectar estos cambios a fin de revelar la presencia de errores.
-- Matar un mutante
-- Sobrevivir un mutante
-- Cobertura de mutación
+- Matar un mutante:
+Ocurre cuando la salida del mutante es diferente a la del programa original cuando se ejecuta con el mismo conjunto de pruebas.
+Esto indica que el caso de prueba es lo suficientemente efectivo como para identificar errores en el código.
+- Sobrevivir un mutante:
+Un mutante "sobrevive" si, al ser ejecutado con los casos de prueba existentes, produce la misma salida que el programa original.
+Esto puede indicar que el caso de prueba no es lo suficientemente optimo o robusto para detectar ciertos tipos de errores.
+- Cobertura de mutación:
+Es una metrica la cual que indica la proporción de mutantes que han sido matados por el conjunto de pruebas, se calcula como *MutantesMatados/TotalMutantes*. Una alta cobertura de mutación sugiere que los casos de prueba son efectivos en detectar errores.
 
 Explica las dos suposiciones principales que hacen las pruebas de mutación:
 - Hipótesis del programador competente
