@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d501863-4318-4514-8bef-5beb16ad7c06" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/2/8/28e61a20b51ecb9b9cf3e756b48c7c3f79c783a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/2/c/2c8d811002d2c2f857d0eac5893cc9c1c99ab1bb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/4/2/425477931394d1d05382a87e5f173260471f9959" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/5/4/545cfb019707487222ac941a0a92b926cd1f0910" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/b/2/b27162d0d0d9ccf3f1a68c8a77b1724db7d9f74b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/b/b/bbcd3ebbd37eba74ac1931218ac5ab7b2055c64b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/d/7/d7595319a0658be6f1ed500ad590d42e4b28bc4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/d/7/d7cef7fca7b9350830c521bba16c082063341c26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/f/0/f0664eb73e85660675e43b82412294c4b165a74f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/f/7/f70348a0aac2ac79a6cfa64a17db061dabeb9eea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/2/8/28e61a20b51ecb9b9cf3e756b48c7c3f79c783a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/2/c/2c8d811002d2c2f857d0eac5893cc9c1c99ab1bb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/4/2/425477931394d1d05382a87e5f173260471f9959" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/5/4/545cfb019707487222ac941a0a92b926cd1f0910" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/b/2/b27162d0d0d9ccf3f1a68c8a77b1724db7d9f74b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/b/b/bbcd3ebbd37eba74ac1931218ac5ab7b2055c64b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/d/7/d7595319a0658be6f1ed500ad590d42e4b28bc4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/d/7/d7cef7fca7b9350830c521bba16c082063341c26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/f/0/f0664eb73e85660675e43b82412294c4b165a74f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/f/7/f70348a0aac2ac79a6cfa64a17db061dabeb9eea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/HelloMockito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/PersonDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/TranslationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/TranslationServiceClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/test/java/HelloMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/test/java/HelloMockitoTestFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/119ff28431acc1504c0e00fcb369f78d1ef4808a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/24fda3aa2c2c5a2c276417673e729616e21aeb5c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/39af7fba63cc3874747af4df841119c8a9e245e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/9204c1fa01b4afd2d79504ea9cdbf010443c68c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be2c41a724b4412e31d65b26cbd1dcd471279cef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/1/119ff28431acc1504c0e00fcb369f78d1ef4808a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/4/24fda3aa2c2c5a2c276417673e729616e21aeb5c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/9/39af7fba63cc3874747af4df841119c8a9e245e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/2/9204c1fa01b4afd2d79504ea9cdbf010443c68c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/e/be2c41a724b4412e31d65b26cbd1dcd471279cef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/sonarlint/issuestore/2/0/20d8b0b10af1ac97ede792a095d7536aab75a269" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/sonarlint/issuestore/a/1/a11f7b8b61abcbf7e8c0318696e43bc9a33e4a5c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/sonarlint/securityhotspotstore/2/0/20d8b0b10af1ac97ede792a095d7536aab75a269" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/sonarlint/securityhotspotstore/a/1/a11f7b8b61abcbf7e8c0318696e43bc9a33e4a5c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntroPitest/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/sonarlint/issuestore/7/5/754830cc534daca3346586b8c9a78bf5ef60e599" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/sonarlint/issuestore/b/c/bcacb45696232b3a4b3179178bb51e7d6cc41f11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/sonarlint/securityhotspotstore/7/5/754830cc534daca3346586b8c9a78bf5ef60e599" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/sonarlint/securityhotspotstore/b/c/bcacb45696232b3a4b3179178bb51e7d6cc41f11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/src/main/java/org/example/LeftPadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeftPad/src/test/java/LeftPadUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/issuestore/1/4/14f96556ece532c5b35b130e16b9fa6fd8c025b7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/issuestore/c/b/cbd2c475c8c6be48d711a00b604a243cad48119a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/securityhotspotstore/1/4/14f96556ece532c5b35b130e16b9fa6fd8c025b7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/securityhotspotstore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/securityhotspotstore/c/b/cbd2c475c8c6be48d711a00b604a243cad48119a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/src/main/java/org/example/CountWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/src/main/java/org/example/CountWordsRefactorized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/src/test/java/CountWordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordsCounter/src/test/java/CountWordsRefactorizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex13_jacoco_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex13_jacoco_methods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex14_jacoco_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex14_jacoco_methods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex23_methods_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex23_pitest_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex2_jacoco_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex2_jacoco_methods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex3_jacoco_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex3_jacoco_methods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex6_jacoco_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex6_jacoco_methods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ex_killed_survivers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/non_linea3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Refactorizacion/.idea/sonarlint/issuestore/d/1/d1992316b5907e436dc7280a4a30226e996a443a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Refactorizacion/.idea/sonarlint/securityhotspotstore/d/1/d1992316b5907e436dc7280a4a30226e996a443a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00c8c448bc6b64c561715088e35eb492ab8293ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0de33387b29b16c54723352fc05a939d45b9d84d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14f96556ece532c5b35b130e16b9fa6fd8c025b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2ad1bdca2a835254932a2a3daa3518dc72800306" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f4677ac329e29104201b0e4eb29fccc5efa1120" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/0/00c8c448bc6b64c561715088e35eb492ab8293ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/d/0de33387b29b16c54723352fc05a939d45b9d84d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/4/14f96556ece532c5b35b130e16b9fa6fd8c025b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/a/2ad1bdca2a835254932a2a3daa3518dc72800306" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9f4677ac329e29104201b0e4eb29fccc5efa1120" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/css/coverage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/css/idea.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/img/arrowDown.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/img/arrowUp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_BLOCK.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_CLASS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_LINE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_METHOD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/js/highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/js/highlightjs-line-numbers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_BLOCK.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_CLASS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_LINE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_METHOD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/sources/source-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlReport/ns-1/sources/source-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CountWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CountWordTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-Refactorizacion/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad-Refactorizacion/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-Refactorizacion/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad-Refactorizacion/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-Refactorizacion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad-Refactorizacion/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/htmlReport" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Actividad-PruebasEstructurales" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Actividad-PruebasEstructurales" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Actividad-PruebasEstructurales" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Actividad-PruebasEstructurales" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2hM0quCmOBR3OC3Npw1C9czPQpg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Actividad-PruebasEstructurales [check].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Actividad-PruebasEstructurales [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Actividad-PruebasEstructurales [jacocoTestCoverageVerification].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Actividad-PruebasEstructurales [jacocoTestReport].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Actividad-PruebasEstructurales [pitest].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CountWordTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CountWordTest.twoWordsEndingWithS.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CountWordTest.wordsThatEndInR.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CountWordsRefactorizedTest.constructorShouldThrowExceptionForIllegalGamesNb.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CountWordsRefactorizedTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CountWordsRefactorizedTest.twoWordsEndingWithS.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pieropr2k/Documentos/01 Des Soft/Labs/CC3S2-20241/Actividad-PruebasEstructurales/LeftPad&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Gradle.CountWordsRefactorizedTest">
+    <configuration name="Actividad-PruebasEstructurales [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Actividad-PruebasEstructurales [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jacocoTestReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CountWordsRefactorizedTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;CountWordsRefactorizedTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CountWordsRefactorizedTest.constructorShouldThrowExceptionForIllegalGamesNb" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;CountWordsRefactorizedTest.constructorShouldThrowExceptionForIllegalGamesNb&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CountWordsRefactorizedTest.twoWordsEndingWithS" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;CountWordsRefactorizedTest.twoWordsEndingWithS&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CountWordsRefactorizedTest" />
+        <item itemvalue="Gradle.Actividad-PruebasEstructurales [dependencies]" />
+        <item itemvalue="Gradle.Actividad-PruebasEstructurales [jacocoTestReport]" />
+        <item itemvalue="Gradle.CountWordsRefactorizedTest.constructorShouldThrowExceptionForIllegalGamesNb" />
+        <item itemvalue="Gradle.CountWordsRefactorizedTest.twoWordsEndingWithS" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d501863-4318-4514-8bef-5beb16ad7c06" name="Changes" comment="" />
+      <created>1717388833100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717388833100</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Actividad_PruebasEstructurales$Actividad_PruebasEstructurales__jacocoTestCoverageVerification_.ic" NAME="Actividad-PruebasEstructurales [jacocoTestCoverageVerification] Coverage Results" MODIFIED="1717389660599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/Actividad_PruebasEstructurales$CountWordTest.ic" NAME="CountWordTest Coverage Results" MODIFIED="1717389772158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>

@@ -1,3 +1,4 @@
+# Actividad: Pruebas Estructurales
 
 ```java
 public class CountWords {
@@ -224,16 +225,93 @@ Como se puede ver en las imagenes el Coverage se indica que es de 100% por lo qu
 ### Parte A: Exploración
 1. Modifica el método count para mejorar su claridad o eficiencia.
 
+```java
+public class CountWordsRefactorized {
+    private final String str;
+
+    public CountWordsRefactorized(String str){
+        if (str.isEmpty() || stringDoesntEndsWithLetter(str)) {
+            throw new IllegalArgumentException("Length is 0");
+        }
+        this.str = str + " ";
+    }
+
+    public int count() {
+        int words = 0;
+        // Comenzamos desde 1 nuestro analisis
+        for (int i = 1; i < str.length(); i++) { // 1
+            if (lastCharacterSatisfyTheCondition(str.charAt(i), str.charAt(i-1))) { // 2
+                words++;
+            }
+        }
+        return words;
+    }
+
+    private boolean stringDoesntEndsWithLetter(String str){
+        return !isLetter(str.charAt(str.length()-1));
+    }
+
+    private boolean lastCharacterSatisfyTheCondition(Character currentChar, Character lastChar) {
+        return !isLetter(currentChar) && (lastChar == 's' || lastChar == 'r');
+    }
+
+    private boolean isLetter(char c) {
+        return Character.isLetter(c);
+    }
+}
+
+```
+
 2. Escribe pruebas unitarias adicionales para asegurar que las modificaciones no rompan la funcionalidad existente.
+
+```java
+public class CountWordsRefactorizedTest {
+    @Test
+    void twoWordsEndingWithS() { // 1
+        String str = "dogs cats";
+        assertWordsThatEndsWithR_or_S(str,2);
+    }
+    @Test
+    void noWordsAtAll() { // 2
+        String str = "dog cat";
+        assertWordsThatEndsWithR_or_S(str,0);
+    }
+
+    @Test
+    void wordsThatEndInR() { // 1
+        String str = "car bar";
+        assertWordsThatEndsWithR_or_S(str,2);
+    }
+
+    private void assertWordsThatEndsWithR_or_S(String str, int expectedValue){
+        CountWordsRefactorized countWords = new CountWordsRefactorized(str);
+        int words = countWords.count();
+        assertThat(words).isEqualTo(expectedValue);
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = { "", "holas.", "asi se hacee ", "asi se hace pues."})
+    void constructorShouldThrowExceptionForIllegalGamesNb(String illegalStr) {
+        assertThatExceptionOfType(IllegalArgumentException.class)
+                .isThrownBy(() -> {
+                    new CountWordsRefactorized(illegalStr);
+                });
+    }
+}
+```
 
 ### Parte B: Informe final
 3. Genera un informe final de cobertura después de todas las modificaciones y nuevas pruebas.
+
+![](img/ex6_jacoco_methods)
+![](img/ex6_jacoco_code)
+
 4. Compara el informe final con el informe inicial y discute los cambios y mejoras en la cobertura de código.
 
+![](img/ex2_jacoco_methods)
 
-
-
-
+Haciendo la comparativa, se puede ver que el coverage tanto en el informe inicial y en el informe final son los mismos (y de 100%). 
+Sin embargo el codigo del informe final es mas optimo debido a que se consideran mas casos como por ejemplo si el string es vacio o si el string termina en cualquier cosa menos en un caracter (numero, punto, espacio en blanco, etc) y gracias a la refactorizacion ponemos un filtro para que estos casos no se pasen.
 
 
 ### Ejercicio 7: presenta un gráfico de flujo de control (CFG) del programa CountWords
@@ -284,7 +362,7 @@ Asegurar que cada condición y cada rama del código en el método count esté c
 ### Ejercicio 11: Cobertura de rutas
 Asegurar que todas las rutas posibles de ejecución en el método count estén cubiertas por al menos una prueba unitaria.
 
-
+### Ejercicio 12: Explica los comentarios 1, 2, 3, 4 y 5 del código
 ```java
 public class LeftPadUtils {
     private static final String SPACE = " ";
@@ -325,12 +403,26 @@ public class LeftPadUtils {
     }
 }
 ```
-### Ejercicio 12: Explica los comentarios 1, 2, 3, 4 y 5 del código anterior
 
+El proposito del programa es contar solo las palabras del string que terminan en s o r.
+**Linea 1:** Verifica si el string str es nulo, si lo es se retorna null.
+<br/>
+**Linea 2:**
+Verifica si el string *padStr* es vacio, si lo es *padStr* sera " ".
+<br/>
+**Linea 3:**
+Si *size* es menor o igual que el tamaño de *str* entonces se returna *str*
+<br/>
+**Linea 4:**
+Si *pads* es igual al tamaño de *padStr* entonces se retorna la union de padStr con *str*
+<br/>
+**Linea 5:**
+Si *pads* es menor al tamaño de *padStr* entonces se retorna la union del substring de padStr con *str*.
+<br/>
+**Linea 6:**
+Si pads es mayor a padLen (pads > padLen) entonces se retorna el string *padding* el cual contiene letras de *padStr* se unido con *str*.
 
-
-
-### Ejercicio 13: Explica las líneas 1, 2 y 3.
+### Ejercicio 13: Explica las líneas 1 y 2.
 ```java
 public class LeftPadTest {
     @ParameterizedTest
@@ -353,24 +445,92 @@ public class LeftPadTest {
     }
 }
 ```
+**Linea 1:**
+Hace una prueba unitaria en base a los parametros del metodo leftPad de la clase LeftPadUtils
+<br/>
+**Linea 2:**
+Se hace la prueba *generator()* con una lista de parametros.
 
+**Analisis de Cobertura:**
+![](img/ex13_jacoco_methods.png)
+![](img/ex13_jacoco_code.png)
 
 
 ### Ejercicio 14
 Agrega estos tres casos de prueba adicionales a la prueba parametrizada, como se
 muestra en el listado, y vuelve a ejecutar la herramienta de cobertura. Explica el informe obtenido,
 ¿es similar al anterior? Explica tu respuesta.
+```java
+static Stream<Arguments> generator() {
+    return Stream.of(
+            // ... otros casos de prueba aquí
+            Arguments.of("abc", 5, "--", "--abc"), // T10
+            Arguments.of("abc", 5, "---", "--abc"), // T11
+            Arguments.of("abc", 5, "-", "--abc") // T12
+    );
+}
+```
+Son similares a T6 debido a que *size = 5* y esto garantiza que el programa va directamente a la unica condicional de la clase LeftPadUtils donde *pads > padLen*
+
+**Analisis de cobertura:**
+![](img/ex14_jacoco_methods.png)
+![](img/ex14_jacoco_code.png)
 
 
 ### Ejercicio 15:
 Agrega este caso de prueba adicional a la prueba parametrizada y vuelve a ejecutar la
 herramienta de cobertura. Explica el informe obtenido, ¿es similar al anterior? Explica tu respuesta.
 
+```java
+@Test
+void sameInstance() {
+    String str = "sometext";
+    assertThat(LeftPadUtils.leftPad(str, 5, "-")).isSameAs(str);
+}
+```
+
+![](img/ex14_jacoco_methods.png)
+![](img/ex14_jacoco_code.png)
+
+Rpta: Si, es similar a T3, T8 y T9 ya que la variable *size* que es 5 no es mayor que el tamaño de *str* que es "sometext" y el programa simplemente devuelve *str* sin cambio alguno.
+
+
 ### Ejercicio 16: Explica las líneas 1, 2 y 3 del codigo anterior.
+```java
+public class Clumps {
+    /**
+     * @param nums
+     *
+     * @return …
+     */
+    public static int countClumps(int[] nums) {
+        if (nums == null || nums.length == 0) { // 1
+            return 0;
+        }
+        int count = 0;
+        int prev = nums[0];
+        boolean inClump = false;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] == prev && !inClump) { // 2
+                inClump = true;
+                count += 1;
+            }
+            if (nums[i] != prev) { // 3
+                prev = nums[i];
+                inClump = false;
+            }
+        }
+        return count;
+    }
+}
+```
+
+
 ### Ejercicio 17:
 Escribe caso de prueba y vuelve a ejecutar la herramienta de cobertura. Explica el
-informe obtenido Explica tu respuesta. ¿ Se logra una cobertura de ramas del 100%?. ¿Se puede
-confiar ciegamente en la cobertura? .
+informe obtenido Explica tu respuesta. ¿Se logra una cobertura de ramas del 100%?. ¿Se puede
+confiar ciegamente en la cobertura?.
+
 ### Ejercicio 18: Explica las líneas 1, 2 y 3 del codigo anterior.
 
 ### Ejercicio 19:
@@ -389,8 +549,154 @@ herramienta de cobertura. Explica el informe obtenido, ¿es similar al anterior?
 Considera las siguientes pruebas unitarias:
 ### Ejercicio 22: Comprender las Pruebas de Mutación
 Comprende los conceptos básicos y la terminología de las pruebas de mutación.
+Instrucciones: <br/>
+Define los siguientes términos:
+- Mutante:
+Es una versión modificada del programa original, creada introduciendo pequeños cambios llamados mutaciones. 
+Normalmente suelen ser alteraciones simples en el código, como cambiar un operador aritmético, lógico o una constante. 
+Los casos de prueba tienen que detectar estos cambios a fin de revelar la presencia de errores.
+- Matar un mutante
+- Sobrevivir un mutante
+- Cobertura de mutación
+
+Explica las dos suposiciones principales que hacen las pruebas de mutación:
+- Hipótesis del programador competente
+- Efecto de acoplamiento
+
 ### Ejercicio 23: Introducción a PIT (Pitest)
 Configurar y ejecutar pruebas de mutación utilizando PIT en un proyecto Java.
+
+Calculator:
+```java
+public class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    }
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+    public int divide(int a, int b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Divisor cannot be zero");
+        }
+        return a / b;
+    }
+}
+```
+Testing:
+```java
+public class CalculatorTest {
+    @Test
+    void testAdd() {
+        Calculator calc = new Calculator();
+        assertEquals(5, calc.add(2, 3));
+    }
+    @Test
+    void testSubtract() {
+        Calculator calc = new Calculator();
+        assertEquals(1, calc.subtract(3, 2));
+    }
+    @Test
+    void testMultiply() {
+        Calculator calc = new Calculator();
+        assertEquals(6, calc.multiply(2, 3));
+    }
+    @Test
+    void testDivide() {
+        Calculator calc = new Calculator();
+        assertEquals(2, calc.divide(6, 3));
+    }
+    @Test
+    void testDivideByZero() {
+        Calculator calc = new Calculator();
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> calc.divide(1, 0));
+        assertEquals("Divisor cannot be zero", exception.getMessage());
+    }
+}
+```
+- Configura PIT en tu proyecto siguiendo las instrucciones en Pitest Quick Start.
+```
+plugins {
+    id 'java'
+    // https://gradle-pitest-plugin.solidsoft.info/
+    id 'info.solidsoft.pitest' version '1.15.0'
+    // https://docs.gradle.org/current/userguide/jacoco_plugin.html
+    id 'jacoco' // Plugin de JaCoCo
+}
+
+group = 'com.jhaner'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.assertj:assertj-core:3.25.3'
+    testImplementation 'org.jetbrains:annotations:24.0.0'
+    // Agrega el plugin de PIT para JUnit 5
+    pitest 'org.pitest:pitest-junit5-plugin:1.1.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+// pitest
+pitest {
+    targetClasses = ['org.example.*'] // Paquete de clases a mutar
+    mutators = ['DEFAULTS'] // Conjunto de mutadores por defecto
+    outputFormats = ['HTML'] // Formato de salida del informe
+    timestampedReports = false // Deshabilitar informes con marca de tiempo para facilitar la navegación
+}
+
+// jacoco
+jacoco {
+    toolVersion = "0.8.12" // Versión de JaCoCo (compatible con java 21)
+}
+
+jacocoTestReport {
+    dependsOn test // Ejecuta las pruebas antes de generar el informe
+
+    reports {
+        xml.required.set(true)
+        html.required.set(true)
+    }
+}
+
+/*
+// Configuración de cobertura mínima requerida si no se cumple, el build fallará
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            limit {
+                minimum = 0.8 // 80% de cobertura mínima requerida
+            }
+        }
+    }
+}
+*/
+
+check.dependsOn jacocoTestCoverageVerification
+
+// ./gradlew pitest
+// ./gradlew jacocoTestReport
+```
+Luego corremos *./gradlew pitest* y *./gradlew jacocoTestReport* en consola.
+- Ejecuta PIT y genera un informe de mutación.
+![](img/ex23_pitest_methods.png)
+![](img/ex23_pitest_code.png)
+![](img/ex_killed_survivers.png)
+
+- Analiza el informe de mutación. ¿Cuántos mutantes fueron generados? ¿Cuántos mutantes
+  fueron matados? ¿Cuántos sobrevivieron? ¿Qué mutantes sobrevivieron y por qué?
+
+
 ### Ejercicio 24: Mejorar el conjunto de pruebas
 Mejorar el conjunto de pruebas basado en el informe de mutación
 ### Ejercicio 25: Crear Mutantes manualmente

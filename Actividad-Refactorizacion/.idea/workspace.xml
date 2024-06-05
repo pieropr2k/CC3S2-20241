@@ -5,143 +5,227 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b0c1a7c-d5c9-4409-b622-385b0efef93c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/issuestore/3/b/3bbc87435d33e66aa8271864d1dc92ad1b838707" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/issuestore/9/a/9a184a153e76e961db265500860bafe042728562" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/issuestore/c/1/c11ba81df749ea3cb09b1dca2331d47e90ef2a0f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/issuestore/f/4/f457285ec2520d672048aa692e129cf05ea9a4b5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/securityhotspotstore/3/b/3bbc87435d33e66aa8271864d1dc92ad1b838707" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/securityhotspotstore/9/a/9a184a153e76e961db265500860bafe042728562" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/securityhotspotstore/c/1/c11ba81df749ea3cb09b1dca2331d47e90ef2a0f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/securityhotspotstore/f/4/f457285ec2520d672048aa692e129cf05ea9a4b5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/src/main/java/org/example/model/LanzamientoDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/src/main/java/org/example/model/NumerosAleatorios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/src/main/java/org/example/model/RandomNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/src/test/java/LanzamientoDadosTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/0/0/00c8c448bc6b64c561715088e35eb492ab8293ce" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/0/d/0de33387b29b16c54723352fc05a939d45b9d84d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/1/4/14f96556ece532c5b35b130e16b9fa6fd8c025b7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/2/a/2ad1bdca2a835254932a2a3daa3518dc72800306" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/9/f/9f4677ac329e29104201b0e4eb29fccc5efa1120" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/0/0/00c8c448bc6b64c561715088e35eb492ab8293ce" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/0/d/0de33387b29b16c54723352fc05a939d45b9d84d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/1/4/14f96556ece532c5b35b130e16b9fa6fd8c025b7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/2/a/2ad1bdca2a835254932a2a3daa3518dc72800306" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/9/f/9f4677ac329e29104201b0e4eb29fccc5efa1120" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/css/coverage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/css/idea.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/img/arrowDown.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/img/arrowUp.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_LINE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/js/highlight.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/js/highlightjs-line-numbers.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_LINE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/sources/source-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/sources/source-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/src/main/java/org/example/CountWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/src/test/java/CountWordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Actividad-Refactorizacion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7977627773ed54ec99acaae8cb3fa4794eb510b0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb88efdf3a73c73b879c4da9ed98f0d7db0a7e07" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/9/7977627773ed54ec99acaae8cb3fa4794eb510b0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/b/eb88efdf3a73c73b879c4da9ed98f0d7db0a7e07" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/8/6/86d3e1fdf5dfab2dbdee8176b9a2aa5fcc6feaac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/9/5/957821f084d164be3053dcad8c016bfd5135c4fe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/securityhotspotstore/8/6/86d3e1fdf5dfab2dbdee8176b9a2aa5fcc6feaac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/securityhotspotstore/9/5/957821f084d164be3053dcad8c016bfd5135c4fe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/0/b/0b5ee22b598ee67aa2a3e1cd278f2fc83e151266" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/0/b/0b5ee22b598ee67aa2a3e1cd278f2fc83e151266" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/1/1/11fdd8dc31df0a0217f79ab4b62eec4277302b95" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/2/8/284f9434cc1ee274197df5ebae353c4a120fed94" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/2/8/284f9434cc1ee274197df5ebae353c4a120fed94" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/4/d/4d8c331483f17d64bb74ea9b88888f915e9347f6" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/4/d/4d8c331483f17d64bb74ea9b88888f915e9347f6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/5/4/54de3cc80461c988aef6f56378468b3660229f5f" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/5/4/54de3cc80461c988aef6f56378468b3660229f5f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/5/c/5ccbaddcc28a7600b8c0870a6c8a2cc4fd56b8b3" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/5/c/5ccbaddcc28a7600b8c0870a6c8a2cc4fd56b8b3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/7/a/7a8178b0eb1ed361ccfdd9164fcfedb38b020edb" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/7/a/7a8178b0eb1ed361ccfdd9164fcfedb38b020edb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/a/5/a538fa77cf606dcc79b4909949fb99dcb9a636d6" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/a/5/a538fa77cf606dcc79b4909949fb99dcb9a636d6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/d/b/db4e3878d7638da268ce802b029a13cf0d29cff9" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/d/b/db4e3878d7638da268ce802b029a13cf0d29cff9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/securityhotspotstore/1/1/11fdd8dc31df0a0217f79ab4b62eec4277302b95" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/Exercise3.md" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/Exercise3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/Sprint1/src/main/java/org/example/database/MySQLConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/Sprint1/src/main/java/org/example/database/MySQLConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/Sprint2/src/main/java/org/example/database/MySQLConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/Sprint2/src/main/java/org/example/database/MySQLConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/Sprint3/src/main/java/org/example/database/MySQLConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/Sprint3/src/main/java/org/example/database/MySQLConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/Sprint3/src/main/java/org/example/manager/BlogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/Sprint3/src/main/java/org/example/manager/BlogManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise3/Sprint3/src/main/java/org/example/manager/DeletableBlogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/Sprint3/src/main/java/org/example/manager/DeletableBlogManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/3/4/3493f1a6ce01c403b5719fec85ceb1573598ff41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/3/c/3c4f2ca22c012f017ed4c79afd64e3cb241a69cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/7/f/7f1ef5abd3ed3899d87daf93a8429c011dbee589" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/7/f/7f1ef5abd3ed3899d87daf93a8429c011dbee589" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/8/1/819ec05e3fc90e9f8ff5cc585ba6404a785f3d3a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/8/e/8e168f3f22e6aa4f8e234239ae6c959ad1bd6833" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/8/e/8e168f3f22e6aa4f8e234239ae6c959ad1bd6833" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/a/1/a11f7b8b61abcbf7e8c0318696e43bc9a33e4a5c" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/a/1/a11f7b8b61abcbf7e8c0318696e43bc9a33e4a5c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/e/5/e5b02a72d345f8da494b878120d3bbbd78927664" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/e/5/e5b02a72d345f8da494b878120d3bbbd78927664" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/securityhotspotstore/3/4/3493f1a6ce01c403b5719fec85ceb1573598ff41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/securityhotspotstore/3/c/3c4f2ca22c012f017ed4c79afd64e3cb241a69cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/securityhotspotstore/8/1/819ec05e3fc90e9f8ff5cc585ba6404a785f3d3a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadPruebasEspecificaciones/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/2/8/28e61a20b51ecb9b9cf3e756b48c7c3f79c783a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/2/c/2c8d811002d2c2f857d0eac5893cc9c1c99ab1bb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/4/2/425477931394d1d05382a87e5f173260471f9959" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/5/4/545cfb019707487222ac941a0a92b926cd1f0910" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/b/2/b27162d0d0d9ccf3f1a68c8a77b1724db7d9f74b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/b/b/bbcd3ebbd37eba74ac1931218ac5ab7b2055c64b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/d/7/d7595319a0658be6f1ed500ad590d42e4b28bc4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/d/7/d7cef7fca7b9350830c521bba16c082063341c26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/f/0/f0664eb73e85660675e43b82412294c4b165a74f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/f/7/f70348a0aac2ac79a6cfa64a17db061dabeb9eea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/2/8/28e61a20b51ecb9b9cf3e756b48c7c3f79c783a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/2/c/2c8d811002d2c2f857d0eac5893cc9c1c99ab1bb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/4/2/425477931394d1d05382a87e5f173260471f9959" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/5/4/545cfb019707487222ac941a0a92b926cd1f0910" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/b/2/b27162d0d0d9ccf3f1a68c8a77b1724db7d9f74b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/b/b/bbcd3ebbd37eba74ac1931218ac5ab7b2055c64b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/d/7/d7595319a0658be6f1ed500ad590d42e4b28bc4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/d/7/d7cef7fca7b9350830c521bba16c082063341c26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/f/0/f0664eb73e85660675e43b82412294c4b165a74f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/f/7/f70348a0aac2ac79a6cfa64a17db061dabeb9eea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/HelloMockito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/PersonDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/TranslationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/main/java/org/example/TranslationServiceClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/test/java/HelloMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-Mockito/src/test/java/HelloMockitoTestFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/1/1/119ff28431acc1504c0e00fcb369f78d1ef4808a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/2/4/24fda3aa2c2c5a2c276417673e729616e21aeb5c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/3/9/39af7fba63cc3874747af4df841119c8a9e245e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/9/2/9204c1fa01b4afd2d79504ea9cdbf010443c68c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/b/e/be2c41a724b4412e31d65b26cbd1dcd471279cef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/1/1/119ff28431acc1504c0e00fcb369f78d1ef4808a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/2/4/24fda3aa2c2c5a2c276417673e729616e21aeb5c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/3/9/39af7fba63cc3874747af4df841119c8a9e245e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/9/2/9204c1fa01b4afd2d79504ea9cdbf010443c68c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/b/e/be2c41a724b4412e31d65b26cbd1dcd471279cef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/sonarlint/issuestore/2/0/20d8b0b10af1ac97ede792a095d7536aab75a269" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/sonarlint/issuestore/a/1/a11f7b8b61abcbf7e8c0318696e43bc9a33e4a5c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/sonarlint/securityhotspotstore/2/0/20d8b0b10af1ac97ede792a095d7536aab75a269" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/sonarlint/securityhotspotstore/a/1/a11f7b8b61abcbf7e8c0318696e43bc9a33e4a5c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/IntroPitest/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/sonarlint/issuestore/7/5/754830cc534daca3346586b8c9a78bf5ef60e599" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/sonarlint/issuestore/b/c/bcacb45696232b3a4b3179178bb51e7d6cc41f11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/sonarlint/securityhotspotstore/7/5/754830cc534daca3346586b8c9a78bf5ef60e599" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/sonarlint/securityhotspotstore/b/c/bcacb45696232b3a4b3179178bb51e7d6cc41f11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/src/main/java/org/example/LeftPadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/LeftPad/src/test/java/LeftPadUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/issuestore/1/4/14f96556ece532c5b35b130e16b9fa6fd8c025b7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/issuestore/c/b/cbd2c475c8c6be48d711a00b604a243cad48119a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/securityhotspotstore/1/4/14f96556ece532c5b35b130e16b9fa6fd8c025b7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/securityhotspotstore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/securityhotspotstore/c/b/cbd2c475c8c6be48d711a00b604a243cad48119a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/src/main/java/org/example/CountWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/src/main/java/org/example/CountWordsRefactorized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/src/test/java/CountWordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/WordsCounter/src/test/java/CountWordsRefactorizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex13_jacoco_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex13_jacoco_methods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex14_jacoco_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex14_jacoco_methods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex23_methods_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex23_pitest_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex2_jacoco_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex2_jacoco_methods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex3_jacoco_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex3_jacoco_methods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex6_jacoco_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex6_jacoco_methods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/ex_killed_survivers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/img/non_linea3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1992316b5907e436dc7280a4a30226e996a443a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/1/d1992316b5907e436dc7280a4a30226e996a443a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad-MocksStubs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/0/0/00c8c448bc6b64c561715088e35eb492ab8293ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/0/d/0de33387b29b16c54723352fc05a939d45b9d84d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/1/4/14f96556ece532c5b35b130e16b9fa6fd8c025b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/2/a/2ad1bdca2a835254932a2a3daa3518dc72800306" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/9/f/9f4677ac329e29104201b0e4eb29fccc5efa1120" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/0/0/00c8c448bc6b64c561715088e35eb492ab8293ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/0/d/0de33387b29b16c54723352fc05a939d45b9d84d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/1/4/14f96556ece532c5b35b130e16b9fa6fd8c025b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/2/a/2ad1bdca2a835254932a2a3daa3518dc72800306" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/9/f/9f4677ac329e29104201b0e4eb29fccc5efa1120" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/css/coverage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/css/idea.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/img/arrowDown.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/img/arrowUp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_BLOCK.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_CLASS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_LINE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_METHOD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/js/highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/js/highlightjs-line-numbers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_BLOCK.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_CLASS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_LINE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_METHOD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/sources/source-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/htmlReport/ns-1/sources/source-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/src/main/java/org/example/CountWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad-PruebasEstructurales/src/test/java/CountWordTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
