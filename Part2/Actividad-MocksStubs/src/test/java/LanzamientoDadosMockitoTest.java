@@ -1,4 +1,5 @@
 import org.example.model.LanzamientoDados;
+import org.example.model.NumerosAleatoriosGenerados;
 import org.example.model.NumerosAleatoriosStub;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -15,7 +16,7 @@ import static org.mockito.Mockito.when;
 public class LanzamientoDadosMockitoTest {
     // usaremos mockito
     @Mock
-    private NumerosAleatoriosStub stub;
+    private NumerosAleatoriosGenerados stub;
 
     @InjectMocks
     private LanzamientoDados play;

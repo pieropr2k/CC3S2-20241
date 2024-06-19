@@ -5,39 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1829e889-3572-4347-b6be-3ddb029ea891" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/.idea/sonarlint/issuestore/a/8/a8267c9049b9fba8c6c99e35cc1e6d3f78f59c05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/.idea/sonarlint/securityhotspotstore/a/8/a8267c9049b9fba8c6c99e35cc1e6d3f78f59c05" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-Docker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-Docker/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-Mockito/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-Mockito/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-Mockito/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-Mockito/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-Mockito/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-Mockito/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-Mockito/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-Mockito/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-Mockito/src/main/java/org/example/HelloMockito.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-Mockito/src/main/java/org/example/HelloMockito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-Mockito/src/test/java/HelloMockitoTestFull.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-Mockito/src/test/java/HelloMockitoTestFull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/.idea/sonarlint/issuestore/9/a/9a184a153e76e961db265500860bafe042728562" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/.idea/sonarlint/securityhotspotstore/9/a/9a184a153e76e961db265500860bafe042728562" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/main/java/org/example/model/LanzamientoDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/main/java/org/example/model/LanzamientoDados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/main/java/org/example/model/NumerosAleatorios.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/main/java/org/example/model/NumerosAleatorios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/main/java/org/example/model/RandomNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/test/java/LanzamientoDadosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/test/java/LanzamientoDadosTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a11f7b8b61abcbf7e8c0318696e43bc9a33e4a5c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/1/a11f7b8b61abcbf7e8c0318696e43bc9a33e4a5c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-ConfigDocker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-ConfigDocker/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/test/java/LanzamientoDadosMockitoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/test/java/LanzamientoDadosMockitoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
