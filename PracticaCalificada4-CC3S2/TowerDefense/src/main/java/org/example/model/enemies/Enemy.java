@@ -39,4 +39,8 @@ public class Enemy {
     public void setPosition(int x, int y) {
         position.setPosition(x, y);
     }
+
+    public Position getPosition() {
+        return this.position;
+    }
 }

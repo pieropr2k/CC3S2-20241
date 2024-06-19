@@ -48,6 +48,7 @@ public class Tower {
 
     public void attack(List<Enemy> enemies) {
         for (Enemy enemy: enemies){
+            //if (enemy.getPosition().getX())
             enemy.downHealth(damage);
         }
     }

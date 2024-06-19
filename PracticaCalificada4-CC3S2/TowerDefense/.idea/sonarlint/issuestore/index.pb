@@ -1,26 +1,10 @@
 
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-S
-#src/main/java/org/example/Main.java,0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b
-T
-$src/main/java/org/example/Enemy.java,8/8/88bd7659cfd257fd77ba81661fd2a7f19662fabe
-Y
-)src/main/java/org/example/BasicEnemy.java,b/e/beaba247c0334fcbee5af54dd5759bb87c4d62b5
-Z
-*src/main/java/org/example/model/Tower.java,0/b/0b25534420eae338673f52f2ef7b31e8380853d5
-`
-0src/main/java/org/example/model/CannonTower.java,4/4/4480e047bc4f8b17631bde7f9606e9299ed33b94
 Y
 )src/main/java/org/example/model/Wave.java,a/0/a0b823a28bcc4723b600d6fb4cd7497520fbea0c
 [
 +src/main/java/org/example/model/Player.java,d/5/d519952eca82f4fa315e1a747101d7b1277c0815
-_
-/src/main/java/org/example/model/BasicEnemy.java,6/7/6794ad563504aedf097e08945dd462719808718f
-Z
-*src/main/java/org/example/model/Enemy.java,6/f/6f80805aefa2d513bbf931201b40c648b9821fe8
-R
-"src/test/TowerDefenseGameTest.java,8/0/805e0dd77def8b7e6e326cd9799343b1d56c6605
 W
 'src/test/java/TowerDefenseGameTest.java,0/f/0f0eb379ee3559424f398b804c5d8523e1df116e
 g
