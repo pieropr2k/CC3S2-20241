@@ -48,8 +48,11 @@ public class Tower {
 
     public void attack(List<Enemy> enemies) {
         for (Enemy enemy: enemies){
-            //if (enemy.getPosition().getX())
-            enemy.downHealth(damage);
+            if (Math.abs(enemy.getPosition().getX() - position.getX()) == range ||
+                    Math.abs(enemy.getPosition().getY() - position.getY()) == range) {
+                enemy.downHealth(damage);
+            }
+
         }
     }
 }
