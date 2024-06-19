@@ -1,19 +1,16 @@
 package org.example.model;
 
-import java.util.random.RandomGenerator;
-
 public class LanzamientoDados {
     private final int NUMERO_LADOS = 6;
-    //private final RandomGenerator rnd;
-    private final RandomNumbers rnd;
-            //= RandomGenerator.getDefault();
+    private final NumerosAleatorios rnd;
 
-    public LanzamientoDados(RandomNumbers r){
+    public LanzamientoDados(NumerosAleatorios r){
         this.rnd = r;
     }
 
-    public String asText(){
-        int lanzado = rnd.nextInt(NUMERO_LADOS);
-        return String.format("El lanzamiento es "+ lanzado);
+    public int attempt(){
+        int result = rnd.nextInt(NUMERO_LADOS) + 1;
+        System.out.println("El lanzamiento es "+ result);
+        return result;
     }
 }

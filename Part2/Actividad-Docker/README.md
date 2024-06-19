@@ -14,21 +14,41 @@ docker container run rancher/cowsay Hello
 
 Se tiene que inicializar el Docker Desktop.
 
-![](docker_version.png)
+![](info.png)
 
 Hay que crearse un grupo para no tener la necesidad de poner sudo a todos los comandos:
 
-![](group.png)
+![](service.png)
 
 
-Puse el comando *newgrp docker* para activar los cambios en los grupos: 
+- Pregunta 1: Explica el procedimiento realizado en esta ejecución por línea de comandos.
+
+Al poner este comando sale esto, debido a que ya hemos ejecutado este codigo en la actividad anterior.
+
+[](img/helloworld.png)
 
 ![](cow.png)
+
+
+
+
+En el segundo caso, podemos realizar la siguiente operación:
+
+*$ docker search mongo*
+
+2. Hay muchas opciones interesantes. ¿Cómo elegimos la mejor imagen? Por lo general, la más
+interesante es la que no tiene ningún prefijo, ya que significa que es una imagen oficial de Docker Hub y,
+por lo tanto, debe ser estable. Las imágenes con prefijos no son oficiales, generalmente se mantienen
+como proyectos de código abierto. En nuestro caso, la mejor opción parece ser mongo, por lo que para
+ejecutar el servidor MongoDB, podemos ejecutar el siguiente comando: 
+
+![](mongo.png)
+
 
 ## Kubernetes
 
 1. Abre el panel de Docker Desktop.
-![](img/desktop.png)
+![](img/helloworld.png)
 
 2. En la esquina superior izquierda, selecciona el ícono de la rueda dentada. Esto abrirá la página de configuración (setting).
 ![](img/diagram.png)

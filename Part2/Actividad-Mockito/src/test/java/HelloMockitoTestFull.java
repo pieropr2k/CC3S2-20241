@@ -14,8 +14,7 @@ import java.util.Optional;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.*;
-import static org.mockito.Mockito.inOrder;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension
         .class)
@@ -65,12 +64,28 @@ class HelloMockitoTestFull {
     @Test
     @DisplayName("Greet a person not in the database")
     void greetPersonThrowsException() {
-        PersonDB ga = new PersonDB();
-        TranslationServiceClass xd = new TranslationServiceClass();
-        HelloMockito helloMockito = new HelloMockito(ga, xd);
-        assertThatExceptionOfType(IllegalArgumentException.class)
-                .isThrownBy(() -> {
-                    helloMockito.greet(1, "", "");
-                });
+        int id = 1;
+        String sourceLang = "en";
+        String targetLang = "es";
+        // Simula excepcion de personRepository.findById
+        when(repository.findById(id)).thenThrow(new RuntimeException("Database error"));
+        // llama a greet() y verifica el retorno del resultado
+        String result = helloMockito.greet(id, sourceLang, targetLang);
+        // Verificamos resultado
+        assertEquals("Error occurred while retrieving the person", result);
+    }
+
+    @Test
+    public void greetPersonThrowsExceptionAndBlocksTranslate() {
+        int id = 1;
+        String sourceLang = "en";
+        String targetLang = "es";
+        when(repository.findById(id)).thenThrow(new RuntimeException("Database error"));
+        // Llamamos a greet
+        String result = helloMockito.greet(id, sourceLang, targetLang);
+        // Comparamos
+        assertEquals("Error occurred while retrieving the person", result);
+        // Verificamos que translationService.translate no ha sido llamado
+        verify(translationService, never()).translate(anyString(), anyString(), anyString());
     }
 }

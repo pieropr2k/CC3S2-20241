@@ -14,8 +14,13 @@ public class HelloMockito {
     }
     // Method we want to test
     public String greet(int id, String sourceLang, String targetLang) {
-        Optional<Person> person = personRepository.findById(id);
-        String name = person.map(Person::getFirst).orElse("World");
-        return translationService.translate(String.format(greeting, name), sourceLang, targetLang);
+        String name;
+        try {
+            Optional<Person> person = personRepository.findById(id);
+            name = person.map(Person::getFirst).orElse("World");
+            return translationService.translate(String.format(greeting, name), sourceLang, targetLang);
+        } catch (Exception e) {
+            return "Error occurred while retrieving the person";
+        }
     }
 }
