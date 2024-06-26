@@ -9,8 +9,16 @@
 #### Teoría:
 - Describe los principios fundamentales de los contenedores Docker y su arquitectura interna.
 Explica cómo Docker maneja la seguridad y el aislamiento de contenedores.
+
+**Rpta:**
+Docker utiliza contenedores ligeros basados en la virtualización a nivel de sistema operativo, esto para garantizar portabilidad. 
+
 - Compara y contrasta Docker con soluciones de virtualización tradicionales, como VMware y
 VirtualBox. Discute las ventajas y desventajas de cada enfoque.
+
+**Rpta:**
+Docker es online y permite que el software que corre en la computadora de una persona corra en cuando abrimos su contenedor.
+En VirtualBox se tiene que configurar todo desde cero, sin embargo en Docker ya todo esta realizado.
 
 Se debe ejecutar este comando, sin embargo...
 
@@ -247,10 +255,21 @@ patrones en las pruebas unitarias.
 
 **Respuesta:**
 
+Mocks: son objetos simulados que verifican interacciones específicas con otros objetos
+Stubs: garantizan respuestas cuando se invocan al metodo del mock
+Fakes: son implementaciones simples y funcionales de interfaces o clases que simulan comportamientos complejo
 
+Estos patrones de pruebas unitarias se deben usar en pruebas donde la respuesta del testing sea aleatoria o dependa de librerias externas, ejemplo una llamada a una API o un numero Random.
 
 - Describe el proceso de creación de pruebas unitarias con Mockito. Explica cómo se pueden
 simular dependencias y verificar comportamientos en las pruebas.
+
+Se usa Mock para crear el mock de la clase
+Se usa InjectMocks para inyectar el mock al mock superior, tiene que usarse el patron de inyeccion de dependencias obligatorio
+
+Con when se define el stub, se define el comportamiento predefinido que se debe lanzar al llamar al metodo del mock
+Verify para verificar si se llamo al metodo y sus parametros variaron
+
 
 **Respuesta:**
 
