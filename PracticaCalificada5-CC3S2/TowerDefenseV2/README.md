@@ -371,10 +371,64 @@ la tasa de mutación (mutation score) y la cobertura de mutación.
 Defense. Asegúrate de integrar la herramienta en el pipeline de CI (opcional).
 
 ```
+plugins {
+    id 'java'
+    id 'info.solidsoft.pitest' version '1.15.0'
+    id 'jacoco' // Plugin de JaCoCo
+}
 
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    pitest 'org.pitest:pitest-junit5-plugin:1.1.0'
+    testImplementation 'org.assertj:assertj-core:3.23.1'
+    testImplementation 'org.mockito:mockito-inline:3.12.4'
+    testImplementation 'org.mockito:mockito-junit-jupiter:3.12.4'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+// jacoco
+jacoco {
+    toolVersion = "0.8.12" // Versión de JaCoCo (compatible con java 21)
+}
+
+jacocoTestReport {
+    dependsOn test // Ejecuta las pruebas antes de generar el informe
+
+    reports {
+        xml.required.set(true)
+        html.required.set(true)
+    }
+}
+
+check.dependsOn jacocoTestCoverageVerification
+
+// ./gradlew pitest
+// ./gradlew jacocoTestReport
+
+pitest {
+    targetClasses = ['org.example.*'] // Paquete de clases a mutar
+    mutators = ['DEFAULTS'] // Conjunto de mutadores [OLD_DEFAULTS, DEFAULTS, STRONGER, ALL]
+    outputFormats = ['HTML'] // Formato de salida del informe
+    timestampedReports = false // Deshabilitar informes con marca de tiempo para facilitar la navegación
+    verbose = true
+}
+
+// ./gradlew pitest
 ```
 
-
+Ejecutamos `./gradlew pitest`
 
 - Implementa pruebas de mutación para la clase Map y analiza los resultados. Asegúrate de
 identificar y corregir las pruebas unitarias que no detecten mutaciones.
