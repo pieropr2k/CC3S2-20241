@@ -25,3 +25,15 @@ S
 #src/main/java/org/example/Game.java,f/1/f1d67a7ee35efa3e1601241987bec47697a781ba
 ]
 -src/main/java/org/example/model/Position.java,7/e/7e77b44c1b76ce63850f3c32e422d34cb221dae3
+i
+9src/main/java/org/example/model/enemies/EnemyFactory.java,8/3/83cce7d4e0702289b96b3a439650b50c0a80a6f1
+m
+=src/main/java/org/example/model/enemies/BossEnemyFactory.java,5/0/502a9d19f15b8db32402fa239f6b10d075fdf551
+n
+>src/main/java/org/example/model/enemies/BasicEnemyFactory.java,3/c/3cbb19b1921250566eed74e398da0049bfef20b6
+h
+8src/main/java/org/example/model/towers/TowerFactory.java,4/c/4c5a08352892c519d21e5b6ec8564b18c7973daf
+n
+>src/main/java/org/example/model/towers/CannonTowerFactory.java,8/f/8f9f07ad74bbf458018892fe0f8548ac4d551a32
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

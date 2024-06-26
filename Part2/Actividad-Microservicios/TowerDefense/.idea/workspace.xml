@@ -4,39 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1829e889-3572-4347-b6be-3ddb029ea891" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/2/9/2982308c0180687215ce1617b02113a0152f8943" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/5/6/56d4160cc6ca78875ccd68909a03119ccce81fb1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/7/8/788529bb5bc96dd53a239f24f6bd7e0edf43cb9c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/d/b/db455f11f40504110fb1ef2567ff0b7b6044c09c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/e/a/eaa6e35a70681433c7f89734abecdc4d584c96c0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/2/9/2982308c0180687215ce1617b02113a0152f8943" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/5/6/56d4160cc6ca78875ccd68909a03119ccce81fb1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/7/8/788529bb5bc96dd53a239f24f6bd7e0edf43cb9c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/d/b/db455f11f40504110fb1ef2567ff0b7b6044c09c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/e/a/eaa6e35a70681433c7f89734abecdc4d584c96c0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/src/main/java/org/example/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/src/main/java/org/example/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/src/main/java/org/example/Tower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/src/main/java/org/example/TowerDefenseGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/src/main/java/org/example/Wave.java" afterDir="false" />
+    <list default="true" id="f6e49077-2012-4d1b-af8b-707b8bd8ca5c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/2982308c0180687215ce1617b02113a0152f8943" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/56d4160cc6ca78875ccd68909a03119ccce81fb1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/788529bb5bc96dd53a239f24f6bd7e0edf43cb9c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db455f11f40504110fb1ef2567ff0b7b6044c09c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaa6e35a70681433c7f89734abecdc4d584c96c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/9/2982308c0180687215ce1617b02113a0152f8943" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/6/56d4160cc6ca78875ccd68909a03119ccce81fb1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/8/788529bb5bc96dd53a239f24f6bd7e0edf43cb9c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/b/db455f11f40504110fb1ef2567ff0b7b6044c09c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/a/eaa6e35a70681433c7f89734abecdc4d584c96c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Tower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TowerDefenseGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Wave.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/misc.xml" afterDir="false" />
@@ -158,7 +158,7 @@
       <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/main/java/org/example/model/NumerosAleatoriosStub.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/test/java/LanzamientoDadosMockitoTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/src/test/java/LanzamientoDadosTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-PruebasEstructurales/IntroPitest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-PruebasEstructurales/IntroPitest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
     </list>
@@ -172,31 +172,54 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TowerDefense" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2i5EnGwaONU5bHTIwoMYhz0Hhih" />
+  <component name="ProjectId" id="2iKqihyQFzifp0MxlJDYP3OPC3Z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.CalculatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.IntroPitest [:Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.IntroPitest [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.TowerDefense [:TowerDefenseGame.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/pieropr2k/Documentos/01 Des Soft/Labs/CC3S2-20241/Part2/Actividad-Microservicios/TowerDefense"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.CalculatorTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="IntroPitest.main" />
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TowerDefenseGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TowerDefenseGame" />
+      <module name="TowerDefense.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -207,68 +230,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.CalculatorTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="IntroPitest [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CalculatorTest" />
-        <item itemvalue="Gradle.IntroPitest [test]" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TowerDefenseGame" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1829e889-3572-4347-b6be-3ddb029ea891" name="Changes" comment="" />
-      <created>1718772203037</created>
+      <changelist id="f6e49077-2012-4d1b-af8b-707b8bd8ca5c" name="Changes" comment="" />
+      <created>1719249745168</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1718772203037</updated>
+      <updated>1719249745168</updated>
     </task>
     <servers />
   </component>

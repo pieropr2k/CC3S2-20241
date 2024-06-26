@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="186b8078-c986-44d0-a9b9-40710c135061" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/2/9/2982308c0180687215ce1617b02113a0152f8943" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/5/6/56d4160cc6ca78875ccd68909a03119ccce81fb1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/7/8/788529bb5bc96dd53a239f24f6bd7e0edf43cb9c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/d/b/db455f11f40504110fb1ef2567ff0b7b6044c09c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/e/a/eaa6e35a70681433c7f89734abecdc4d584c96c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/2/9/2982308c0180687215ce1617b02113a0152f8943" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/5/6/56d4160cc6ca78875ccd68909a03119ccce81fb1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/7/8/788529bb5bc96dd53a239f24f6bd7e0edf43cb9c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/d/b/db455f11f40504110fb1ef2567ff0b7b6044c09c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/e/a/eaa6e35a70681433c7f89734abecdc4d584c96c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/src/main/java/org/example/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/src/main/java/org/example/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/src/main/java/org/example/Tower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/src/main/java/org/example/TowerDefenseGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/src/main/java/org/example/Wave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/issuestore/0/3/03759eaa517d1893b652bfc17e0bcbcdd9ebd3bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/issuestore/3/b/3bbc87435d33e66aa8271864d1dc92ad1b838707" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/issuestore/7/8/78c19b99b9a3288b1fc9646d447794dd5271106f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/issuestore/a/8/a8267c9049b9fba8c6c99e35cc1e6d3f78f59c05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/issuestore/c/1/c11ba81df749ea3cb09b1dca2331d47e90ef2a0f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/issuestore/f/4/f457285ec2520d672048aa692e129cf05ea9a4b5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/securityhotspotstore/0/3/03759eaa517d1893b652bfc17e0bcbcdd9ebd3bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/securityhotspotstore/3/b/3bbc87435d33e66aa8271864d1dc92ad1b838707" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/securityhotspotstore/7/8/78c19b99b9a3288b1fc9646d447794dd5271106f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/securityhotspotstore/a/8/a8267c9049b9fba8c6c99e35cc1e6d3f78f59c05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/securityhotspotstore/c/1/c11ba81df749ea3cb09b1dca2331d47e90ef2a0f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/securityhotspotstore/f/4/f457285ec2520d672048aa692e129cf05ea9a4b5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/img/mockito.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/img/produccion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/src/main/java/org/example/model/LanzamientoDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/src/main/java/org/example/model/NumerosAleatorios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/src/main/java/org/example/model/NumerosAleatoriosGenerados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/src/main/java/org/example/model/NumerosAleatoriosStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/src/test/java/LanzamientoDadosMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados/src/test/java/LanzamientoDadosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1ccd787dbcc63c76e98cb32897c323ef3965ca92" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a181b639aa8698e0fff9f63ed4636a98064bda2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d51a3a9e3c2dbe08bae761e1cffaa3ef50748f7e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eecf43de9ca478b31ed44104feac4b86f6c3fe37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/c/1ccd787dbcc63c76e98cb32897c323ef3965ca92" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6a181b639aa8698e0fff9f63ed4636a98064bda2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/5/d51a3a9e3c2dbe08bae761e1cffaa3ef50748f7e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/eecf43de9ca478b31ed44104feac4b86f6c3fe37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MailServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RealMailServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UserNotifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserNotificationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/issuestore/3/c/3cbb19b1921250566eed74e398da0049bfef20b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/issuestore/4/c/4c5a08352892c519d21e5b6ec8564b18c7973daf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/issuestore/5/0/502a9d19f15b8db32402fa239f6b10d075fdf551" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/issuestore/8/3/83cce7d4e0702289b96b3a439650b50c0a80a6f1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/issuestore/8/f/8f9f07ad74bbf458018892fe0f8548ac4d551a32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/securityhotspotstore/3/c/3cbb19b1921250566eed74e398da0049bfef20b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/securityhotspotstore/4/c/4c5a08352892c519d21e5b6ec8564b18c7973daf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/securityhotspotstore/5/0/502a9d19f15b8db32402fa239f6b10d075fdf551" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/securityhotspotstore/8/3/83cce7d4e0702289b96b3a439650b50c0a80a6f1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/securityhotspotstore/8/f/8f9f07ad74bbf458018892fe0f8548ac4d551a32" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/0/3/03759eaa517d1893b652bfc17e0bcbcdd9ebd3bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/3/b/3bbc87435d33e66aa8271864d1dc92ad1b838707" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/7/8/78c19b99b9a3288b1fc9646d447794dd5271106f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/a/8/a8267c9049b9fba8c6c99e35cc1e6d3f78f59c05" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/c/1/c11ba81df749ea3cb09b1dca2331d47e90ef2a0f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/f/4/f457285ec2520d672048aa692e129cf05ea9a4b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/0/3/03759eaa517d1893b652bfc17e0bcbcdd9ebd3bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/3/b/3bbc87435d33e66aa8271864d1dc92ad1b838707" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/7/8/78c19b99b9a3288b1fc9646d447794dd5271106f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/a/8/a8267c9049b9fba8c6c99e35cc1e6d3f78f59c05" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/c/1/c11ba81df749ea3cb09b1dca2331d47e90ef2a0f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/f/4/f457285ec2520d672048aa692e129cf05ea9a4b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/mockito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/produccion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/model/LanzamientoDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/model/NumerosAleatorios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/model/NumerosAleatoriosGenerados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/model/NumerosAleatoriosStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/LanzamientoDadosMockitoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/LanzamientoDadosTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-PruebasEstructurales/IntroPitest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-PruebasEstructurales/IntroPitest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada4-CC3S2/TowerDefense/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2i6oXcG5kmdV4TKKYhKZBINixaW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.MailNotificaciones [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MailNotificaciones [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserNotificationsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserNotificationsTest.notifyUserSendsEmail.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pieropr2k/Documentos/01 Des Soft/Labs/PracticaCalificada4-CC3S2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Gradle.UserNotificationsTest.notifyUserSendsEmail">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="MailNotificaciones.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailNotificaciones [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserNotificationsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;UserNotificationsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserNotificationsTest.notifyUserSendsEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;UserNotificationsTest.notifyUserSendsEmail&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.UserNotificationsTest.notifyUserSendsEmail" />
+        <item itemvalue="Gradle.UserNotificationsTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.MailNotificaciones [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="186b8078-c986-44d0-a9b9-40710c135061" name="Changes" comment="" />
+      <created>1718820430470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718820430470</updated>
+    </task>
+    <servers />
+  </component>
+</project>

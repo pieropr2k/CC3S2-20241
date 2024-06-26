@@ -200,3 +200,61 @@ public class Main {
 
 ## Ejercicio 2:  Sistema de notificaciones por email
 
+#### Paso 1
+
+Definir una interfaz MailServer que abstraiga el envío de correos electrónicos.
+
+```java
+interface MailServer {
+    void sendMail(String receiver, String subject, String message);
+}
+```
+#### Paso 2
+
+Crear una clase UserNotifications que dependa de la interfaz MailServer para enviar correos.
+
+```java
+public class UserNotifications{
+    private final MailServer mailServer;
+
+    public UserNotifications(MailServer mailServer) {
+        this.mailServer = mailServer;
+    }
+
+    public void notifyUser(String receiver, String subject, String message) {
+        if (receiver == null || receiver.isEmpty() || subject == null || subject.isEmpty() || message == null || message.isEmpty())
+            throw new IllegalArgumentException("Los campos no pueden estar vacios");
+
+        this.mailServer.sendMail(receiver, subject, message);
+    }
+}
+
+```
+
+#### Paso 3
+Implementar un mock de MailServer que registre las llamadas a su método sendEmail y capture los valores de los parámetros enviados.
+
+```java
+
+```
+
+### Paso 4: 
+
+Escribir pruebas unitarias para UserNotifications utilizando el mock para verificar que los correos se envíen correctamente.
+
+```java
+```
+
+### Paso 5: 
+
+Implementar una clase RealMailServer que use SMTP para enviar correos en un entorno de producción.
+
+```java
+```
+
+### Paso 6: 
+
+Integrar UserNotifications en una aplicación de producción, inyectando la implementación real de MailServer.
+
+```java
+```
