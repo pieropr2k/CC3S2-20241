@@ -290,10 +290,10 @@ kubectl get services
 - Explica los conceptos de mocks, stubs y fakes. Discute cuándo y cómo se deben utilizar estos
 patrones en las pruebas unitarias.
 
-**Respuesta:**
-
 Mocks: son objetos simulados que verifican interacciones específicas con otros objetos
+
 Stubs: garantizan respuestas cuando se invocan al metodo del mock
+
 Fakes: son implementaciones simples y funcionales de interfaces o clases que simulan comportamientos complejo
 
 Estos patrones de pruebas unitarias se deben usar en pruebas donde la respuesta del testing sea aleatoria o se dependa de librerias externas, ejemplo una llamada a una API o un numero Random.
@@ -307,8 +307,6 @@ Se usa @InjectMocks para inyectar el mock previo al constructor del mock superio
 Con when se define el stub, se define el comportamiento predefinido que se debe lanzar al llamar al metodo del mock
 Verify para verificar si se llamo al metodo o este interactuo.
 
-
-**Respuesta:**
 
 #### Práctico:
 - Escribe pruebas unitarias para la clase TowerDefenseGame utilizando Mockito para simular
