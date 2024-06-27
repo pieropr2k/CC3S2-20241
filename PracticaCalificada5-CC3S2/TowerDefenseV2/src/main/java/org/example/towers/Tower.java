@@ -39,10 +39,13 @@ public class Tower {
     }
 
     public void setFireRate(int fireRate) {
+
         this.fireRate = fireRate;
     }
 
     public void setPosition(int x, int y) {
+        // Precondición: el valor debe ser no negativo
+        assert (x >= 0 || y >= 0) : "Coordinates has to be positive";
         position.setPosition(x, y);
     }
 
@@ -56,7 +59,11 @@ public class Tower {
             int x_diff = Math.abs(enemy.getPosition().getX() - position.getX());
             int y_diff = Math.abs(enemy.getPosition().getY() - position.getY());
             if ((x_diff <= range || y_diff <= range) && (x_diff == y_diff || x_diff == 0 || y_diff == 0)) {
+                int preHealth = enemy.getHealth();
                 enemy.downHealth(damage);
+                // Post-condition
+                assert enemy.getHealth() == preHealth - damage : "It must downgrade life";
+
             }
         }
     }

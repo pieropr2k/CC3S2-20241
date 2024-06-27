@@ -17,6 +17,8 @@ public class Wave {
         this.enemies = generateEnemies(waveNumber);
     }
     private List<Enemy> generateEnemies(int waveNumber) {
+        // Precondición: el valor debe ser no negativo
+        assert waveNumber >= 0 : "Value has to be positive";
         List<Enemy> enemies = new ArrayList<>();
         for (int i = 0; i < waveNumber * 5; i++) { // más enemigos cada oleada
             enemies.add(new BasicEnemyFactory().createEnemy());

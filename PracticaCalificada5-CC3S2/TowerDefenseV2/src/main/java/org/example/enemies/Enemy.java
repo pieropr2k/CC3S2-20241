@@ -25,12 +25,21 @@ public class Enemy {
         return this.health;
     }
     public void downHealth(int damage){
-        this.health = this.health - damage;
+        // Pre-condition
+        assert damage >= 0 : "Damage down has to be positive";
+        int healthVal = this.health;
+        healthVal -= damage;
+        // Post-condition
+        assert healthVal >= 0 : "Health has to be positive";
+        this.health = healthVal;
     }
     public int getReward(){
         return this.reward;
     }
+
     public void setReward(int extra){
+        // Pre-condition
+        assert extra >= 0 : "Extra reward has to be positive";
         this.reward = this.reward + extra;
     }
     public void setPosition(int x, int y) {

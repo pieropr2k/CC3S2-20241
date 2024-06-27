@@ -11,14 +11,17 @@
 Explica cómo Docker maneja la seguridad y el aislamiento de contenedores.
 
 **Rpta:**
-Docker utiliza contenedores ligeros basados en la virtualización a nivel de sistema operativo, esto para garantizar portabilidad. 
+Docker utiliza contenedores ligeros basados en la virtualización a nivel de sistema operativo, esto para garantizar portabilidad.
+Docker maneja la seguridad y el aislamiento utilizando namespaces y control groups (cgroups) de Linux para separar los recursos y procesos de cada contenedor.
 
-- Compara y contrasta Docker con soluciones de virtualización tradicionales, como VMware y
-VirtualBox. Discute las ventajas y desventajas de cada enfoque.
+- Compara y contrasta Docker con soluciones de virtualización tradicionales, como VMware y VirtualBox. Discute las ventajas y desventajas de cada enfoque.
 
 **Rpta:**
 Docker es online y permite que el software que corre en la computadora de una persona corra en cuando abrimos su contenedor.
 En VirtualBox se tiene que configurar todo desde cero, sin embargo en Docker ya todo esta realizado.
+
+Docker ofrece una virtualización ligera a nivel de SO y cuenta con alta portabilidad, esto es ideal para los microservicios.
+Por el otro lado en soluciones tradicionales como VMware y VirtualBox si bien puedes aislar los entornos y se cuenta con soporte para múltiples sistemas operativos, este genera un mayor consumo de recursos y también los tiempos de inicio son más lentos.
 
 Se debe ejecutar este comando, sin embargo...
 
@@ -91,8 +94,17 @@ Aca se ve:
 ## Ejercicio 2: Redes y volúmenes en Docker (3 puntos)
 
 #### Teoría:
-- Explica en detalle cómo Docker maneja las redes y los volúmenes. Discute los diferentes
-tipos de redes (bridge, host, overlay) y cuándo es apropiado usar cada una.
+- Explica en detalle cómo Docker maneja las redes y los volúmenes. 
+Discute los diferentes tipos de redes (bridge, host, overlay) y cuándo es apropiado usar cada una.
+
+**Rpta:**
+Docker gestiona las redes mediante tipos como 'bridge', 'host' y 'overlay' para facilitar la comunicación entre contenedores y hosts múltiples. Los volúmenes de Docker permiten el almacenamiento persistente y compartir estos datos entre los contenedores y el host.
+
+Tipos de redes y cuando es apropiado usarlas: 
+1. Bridge (de puente): para crear redes internas donde los contenedores se comunican en un mismo host.
+2. Host: para conectar contenedores directamente a la red del host, es ideal cuando los contenedores necesitan alto rendimiento en la red.
+3. Overlay: para conectar múltiples máquinas Docker en una red compartida, ideal para aplicaciones distribuidas.
+
 - Describe los mecanismos de persistencia de datos en Docker, incluyendo volúmenes y bind
 mounts. Explica las diferencias entre ellos y las mejores prácticas para su uso.
 
@@ -178,8 +190,27 @@ Todo corre bien:
 - Describe la arquitectura de Kubernetes y sus componentes principales, incluyendo el API
 server, etcd, scheduler, y kubelet. Explica cómo estos componentes interactúan para
 gestionar un clúster de Kubernetes.
+
+**Rpta:**
+Arquitectura de Kubernetes - Componentes principales:
+
+1. API Server: Actúa como punto de entrada para la gestión del clúster, aceptando comandos y consultas de usuarios y otros componentes. Es la única interfaz para el control y la configuración del clúster.
+2. etcd: Es un almacén de datos consistente y con alta disponibilidad utilizado para almacenar la configuración del clúster, el estado del objeto y los metadatos.
+3. Scheduler: Componente responsable de programar contenedores en nodos del clúster, basándose en los recursos disponibles y los requisitos de las aplicaciones.
+4. Kubelet: Agente que se ejecuta en cada nodo del clúster y gestiona los contenedores locales, se asegura que estén en ejecución y en el estado deseado.
+
+La arquitectura de Kubernetes facilita la gestión eficiente y escalable de aplicaciones en clústeres distribuidos, asegurando alta disponibilidad y fiabilidad mediante la coordinación precisa de sus componentes esenciales.
+
 - Discute las estrategias de escalabilidad y alta disponibilidad en Kubernetes. Explica cómo
 Kubernetes maneja la recuperación de fallos y la gestión de réplicas.
+
+**Rpta:**
+Kubernetes escala las aplicaciones horizontalmente añadiendo o reduciendo réplicas y
+verticalmente ajustando recursos como CPU y memoria.
+Para alta disponibilidad, se gestiona las réplicas, se distribuyen en nodos 
+y se reinicia automáticamente los pods fallidos. 
+Se utiliza controladores de replicación para mantener el número deseado de réplicas y para asegurar la tolerancia a fallos y la continuidad del servicio.
+
 
 #### Práctico:
 
@@ -206,7 +237,13 @@ spec:
           image: tower-defense-game
           ports:
             - containerPort: 8080
-
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "500m"
+            limits:
+              memory: "512Mi"
+              cpu: "1"
 ```
 
 - Implementa un Service en Kubernetes para exponer la aplicación Tower Defense a través de
@@ -259,20 +296,19 @@ Mocks: son objetos simulados que verifican interacciones específicas con otros 
 Stubs: garantizan respuestas cuando se invocan al metodo del mock
 Fakes: son implementaciones simples y funcionales de interfaces o clases que simulan comportamientos complejo
 
-Estos patrones de pruebas unitarias se deben usar en pruebas donde la respuesta del testing sea aleatoria o dependa de librerias externas, ejemplo una llamada a una API o un numero Random.
+Estos patrones de pruebas unitarias se deben usar en pruebas donde la respuesta del testing sea aleatoria o se dependa de librerias externas, ejemplo una llamada a una API o un numero Random.
+Ya que las respuestas pueden salir no esperadas y romper nuestros tests asi que lo mejor en estos casos es configurar un stub para que nuestras pruebas sigan en funcionamiento.
 
 - Describe el proceso de creación de pruebas unitarias con Mockito. Explica cómo se pueden
 simular dependencias y verificar comportamientos en las pruebas.
 
-Se usa Mock para crear el mock de la clase
-Se usa InjectMocks para inyectar el mock al mock superior, tiene que usarse el patron de inyeccion de dependencias obligatorio
-
+Se usa @Mock para crear el mock de la clase
+Se usa @InjectMocks para inyectar el mock previo al constructor del mock superior, tiene que usarse el patron de inyeccion de dependencias obligatorio para que este paso funcione.
 Con when se define el stub, se define el comportamiento predefinido que se debe lanzar al llamar al metodo del mock
-Verify para verificar si se llamo al metodo y sus parametros variaron
+Verify para verificar si se llamo al metodo o este interactuo.
 
 
 **Respuesta:**
-
 
 #### Práctico:
 - Escribe pruebas unitarias para la clase TowerDefenseGame utilizando Mockito para simular
@@ -299,10 +335,8 @@ public class TowerDefenseGameTest {
     }
 }
 ```
-
-Explicacion: lo que hacemos es inicializar el stub del metodo *isValidPosition()* de mockMap (el mock de Map) para que retorne true, 
+Lo que se hace es inicializar el stub del metodo *isValidPosition()* de mockMap (el mock de Map) para que retorne true, 
 esto con el fin de que se ejecute la logica del metodo placeTower. Luego con verify() evaluamos si en el mock de Map se coloco la torre en (3,4).
-
 
 - Implementa pruebas de integración que verifiquen la interacción entre las clases principales
 (TowerDefenseGame, Map, Player, Wave). Utiliza Mockito para controlar y verificar el
@@ -359,12 +393,25 @@ software. Explica los tipos de operadores de mutación y su propósito.
 
 **Respuesta:**
 
+Las pruebas de mutación son una técnica avanzada de prueba de software que se utiliza para evaluar la efectividad de los 
+casos de prueba, lo que haces es introducir forzosamente errores con mutacion en el código para evaluar la efectividad de los casos de prueba, 
+revelando debilidades y mejorando la cobertura y detección de errores. Esto fortalece los casos de prueba y garantiza una mayor calidad del software.
+
+Operadores de mutacion:
+1. Aritmetica: Modifican operadores aritméticos para introducir errores en cálculos. Ejm: De + a -
+2. Relacional: Alteran operadores relacionales para cambiar la lógica de comparación. Ejm: de && a ||
+3. Logica: Modifican operadores lógicos para alterar la lógica condicional. Ejm: de if(true) a if(false)
+4. Condicionales: Alteran las estructuras de control condicional para introducir errores en la lógica de flujo. Ejm: de if(true) a if(false)
+5. Asignacion: Modifican las operaciones de asignación para introducir errores en la actualización de variables. Ejm: Cambiar x = y a x = y + 1.
+
 - Discute las métricas utilizadas para evaluar la efectividad de las pruebas de mutación, como
 la tasa de mutación (mutation score) y la cobertura de mutación.
 
 **Respuesta:**
 
-![](img/pitest1.png)
+1. Tasa de Mutación: Una alta tasa indica que los casos de prueba son efectivos para detectar la mayoría de los errores posibles, mientras que una baja tasa sugiere la necesidad de mejorar los casos de prueba.
+2. Cobertura de Mutación: Una buena cobertura hace que los casos de prueba están revisando una porción significativa y grande del codigo del código, 
+y esto aumenta la confianza en la robustez del software.
 
 #### Práctico:
 - Configura una herramienta de pruebas de mutación, como PIT, en el proyecto Tower
@@ -439,9 +486,12 @@ identificar y corregir las pruebas unitarias que no detecten mutaciones.
 basado en los resultados de las pruebas de mutación. Incluye recomendaciones para
 mejorar la cobertura y efectividad de las pruebas.
 
+**Rpta:**
+Este es el informe:
 
+![](img/pitest1.png)
 
-
+En este informe se puede ver una baja cobertura (20%) lo ideal seria hacer mas pruebas a cada clase y pruebas de integracion mas robustas tal que los mutantes no sobrevivan.
 
 
 ## Ejercicio 6: Diseño por contrato (Design by Contract) (2 puntos)
@@ -451,13 +501,12 @@ mejorar la cobertura y efectividad de las pruebas.
 Discute las diferencias entre precondiciones, postcondiciones e invariantes.
 
 **Rpta:**
-El diseño por contrato es una metodología del desarrollo de software que define las obligaciones y responsabilidades de los componentes del software mediante contratos que incluyen precondiciones, postcondiciones e invariantes. Esta metodología asegura interacciones predecibles y confiables entre los componentes.
-
+El diseño por contrato es una metodología del desarrollo de software que define las obligaciones y responsabilidades de los componentes del software mediante contratos que incluyen precondiciones, postcondiciones e invariantes. Esta metodología asegura interacciones predecibles y confiables entre los componentes. <br/>
 Diferencias:
-* Precondiciones: Se verifican antes de la ejecución de un método y son responsabilidades del llamador del método.
+1. Precondiciones: Se verifican antes de la ejecución de un método y son responsabilidades del llamador del método.
 Si no se cumplen, el método no se ejecutará correctamente.
-* Postcondiciones: Se verifican después de la ejecución de un método y son responsabilidades del método.
-* Invariantes: Se verifican antes y después de cualquier operación sobre un objeto, y son propiedades constantes que deben mantenerse durante todo el ciclo de vida del objeto.
+2. Postcondiciones: Se verifican después de la ejecución de un método y son responsabilidades del método.
+3. Invariantes: Se verifican antes y después de cualquier operación sobre un objeto, y son propiedades constantes que deben mantenerse durante todo el ciclo de vida del objeto.
 
 - Describe cómo el diseño por contrato puede mejorar la robustez y mantenibilidad del código.
 
@@ -468,8 +517,55 @@ El diseño por contrato mejora la robustez al poner condiciones previas y poster
 - Aplica el diseño por contrato a la clase Tower. Define las precondiciones, postcondiciones e
 invariantes de los métodos principales de la clase.
 
+**Rpta:**
+En el metodo *setPosition()* se pone una precondicion y en *attack()* se define una pre y postcondicion:
+
 ```java
-public void attack(List<Enemy> enemies) {
+public class Tower {
+    private int damage;
+    private int range;
+    private int fireRate; // turnos entre disparos
+    private Position position;
+
+    public Tower(int damage, int range, int fireRate) {
+        this.damage = damage;
+        this.range = range;
+        this.fireRate = fireRate;
+        this.position =  new Position(0, 0);
+    }
+    // Constructores, getters y setters
+    public int getDamage() {
+        return this.damage;
+    }
+
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
+
+    public int getRange() {
+        return this.range;
+    }
+
+    public void setRange(int range) {
+        this.range = range;
+    }
+
+    public int getFireRate() {
+        return this.fireRate;
+    }
+
+    public void setFireRate(int fireRate) {
+
+        this.fireRate = fireRate;
+    }
+
+    public void setPosition(int x, int y) {
+        // Precondición: el valor debe ser no negativo
+        assert (x >= 0 || y >= 0) : "Coordinates has to be positive";
+        position.setPosition(x, y);
+    }
+
+    public void attack(List<Enemy> enemies) {
         // Precondicion
         if (enemies.isEmpty()) {
             throw new IllegalArgumentException("Tienes que tener minimo 1 enemigo");
@@ -479,10 +575,15 @@ public void attack(List<Enemy> enemies) {
             int x_diff = Math.abs(enemy.getPosition().getX() - position.getX());
             int y_diff = Math.abs(enemy.getPosition().getY() - position.getY());
             if ((x_diff <= range || y_diff <= range) && (x_diff == y_diff || x_diff == 0 || y_diff == 0)) {
+                int preHealth = enemy.getHealth();
                 enemy.downHealth(damage);
+                // Post-condition
+                assert enemy.getHealth() == preHealth - damage : "It must downgrade life";
+
             }
         }
     }
+}
 ```
 
 - Escribe pruebas unitarias que verifiquen el cumplimiento de los contratos definidos para la
@@ -502,6 +603,271 @@ public class TowerContractTest {
 }
 ```
 
+![](img/contract_test.png)
+
 - Realiza una revisión de código para asegurarte de que todas las clases del proyecto Tower
 Defense siguen los principios del diseño por contrato. Documenta cualquier ajuste o mejora
 necesaria en el código.
+
+**Rpta:**
+
+En las siguientes clases se aplicaran los principios del diseño por contrato y se indicaran que metodos lo tienen:
+
+En la clase Player el metodo deductBaseHealth tiene tanto Precondicion como Postcondicion:
+
+```java
+public class Player {
+    private int score;
+    private int baseHealth;
+    public Player() {
+        this.score = 0;
+        this.baseHealth = 100;
+    }
+    public void addScore(int points) {
+        this.score += points;
+    }
+    public void deductBaseHealth(int damage) {
+        // Precondición: el valor debe ser no negativo
+        assert damage >= 0 : "Damage down has to be positive";
+        int baseHealthVal = this.baseHealth;
+        baseHealthVal -= damage;
+        // Postcondición: el valor del impuesto debe ser no negativo
+        assert baseHealthVal >= 0 : "Life has to be positive";
+        this.baseHealth -= baseHealthVal;
+    }
+    public int getScore() {
+        return score;
+    }
+    public int getBaseHealth() {
+        return baseHealth;
+    }
+    // Métodos adicionales según las necesidades del juego
+    public void updateScoreAndHealth(Enemy enemy, boolean defeated){
+        if (defeated) {
+            this.addScore(enemy.getReward());
+        } else {
+            this.deductBaseHealth(25);
+        }
+    }
+}
+```
+
+Para la clase Map, todos los metodos place tienen pre-condicion:
+
+```java
+public class Map {
+    final int DIM = 5;
+    private int rows;
+    private int columns;
+    private char[][] mapGrid;
+    private List<Position> road;
+    private Position base;
+
+    public Map(){
+        this.rows = DIM;
+        this.columns = DIM;
+        //this.mapGrid = new int[rows][columns];
+        this.base = new Position(2, 4);
+        this.mapGrid = new char[][] {
+                {' ', ' ', 'C', ' ', ' '},
+                {' ', 'C', ' ', ' ', ' '},
+                {'C', ' ', ' ', 'C', 'B'},
+                {' ', ' ', 'C', ' ', ' '},
+                {' ', ' ', ' ', ' ', ' '}
+        };
+        generateRoad();
+
+    }
+
+    public void generateRoad() {
+        this.road = List.of(new Position(2,0),
+                new Position(1,1),
+                new Position(0,2),
+                new Position(3,1),
+                new Position(3,2),
+                new Position(2,3),
+                new Position(2, 4)
+        );
+    }
+
+    public char[][] getMapGrid() {
+        return this.mapGrid;
+    }
+
+    public void printMap(){
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                String mapElement = "[" + mapGrid[i][j] + "]";
+                System.out.print(mapElement);
+            }
+            System.out.println();
+        }
+    }
+
+    public boolean isValidPosition(int x, int y){
+        return (x >= 0 && x < rows) && (y >= 0 && y < columns) && mapGrid[x][y] == ' ';
+    }
+
+    public void placeTower(Tower tower, int x, int y) {
+        if (this.isValidPosition(x,y)) {
+            mapGrid[x][y] = 'T';
+            tower.setPosition(x, y);
+        }
+    }
+    
+    // Aca esta las precondiciones:
+
+    public void placeEnemy(Enemy enemy, int x, int y) {
+        // Precondición: el valor debe ser no negativo
+        assert (x >= 0 || y >= 0) : "Coordinates has to be positive";
+        mapGrid[x][y] = 'E';
+        enemy.setPosition(x, y);
+    }
+
+    public void placeRoad(int x, int y) {
+        // Precondición: el valor debe ser no negativo
+        assert (x >= 0 || y >= 0) : "Coordinates has to be positive";
+        mapGrid[x][y] = 'C';
+    }
+
+    public boolean checkTower(int i,int j){
+        return mapGrid[i][j] == 'T';
+    }
+
+    public boolean checkEnemy(int i,int j){
+        return mapGrid[i][j] == 'E';
+    }
+
+    public boolean checkRoad(int i,int j){
+        return mapGrid[i][j] == 'C';
+    }
+
+    public boolean checkPlace(int i,int j){
+        return mapGrid[i][j] == 'B';
+    }
+
+    public List<Position> getRoad(){
+        return this.road;
+    }
+
+    public Position getBase(){
+        return this.base;
+    }
+}
+```
+
+En el metodo generateEnemies() de la clase Wave se pone una precondicion:
+
+```java
+public class Wave {
+    private List<Enemy> enemies;
+    private int waveNumber;
+    private Map map;
+
+    public Wave(int waveNumber) {
+        this.waveNumber = waveNumber;
+        this.enemies = generateEnemies(waveNumber);
+    }
+    private List<Enemy> generateEnemies(int waveNumber) {
+        // Precondición: el valor debe ser no negativo
+        assert waveNumber >= 0 : "Value has to be positive";
+        List<Enemy> enemies = new ArrayList<>();
+        for (int i = 0; i < waveNumber * 5; i++) { // más enemigos cada oleada
+            enemies.add(new BasicEnemyFactory().createEnemy());
+        }
+        if (waveNumber % 5 == 0) { // jefe cada 5 oleadas
+            enemies.add(new BossEnemyFactory().createEnemy());
+        }
+        if (waveNumber % 7 == 0) { // jefe cada 5 oleadas
+            enemies.add(new SpeedyEnemyFactory().createEnemy());
+        }
+        return enemies;
+    }
+    // Métodos para manejar el progreso de la oleada
+    public List<Enemy> spawnEnemies() {
+        char[][] map = this.map.getMapGrid();
+
+        List<Position> spawnPoints = new ArrayList<>();
+        for (int i = 0; i < map.length; i++) {
+            for (int j = 0; j < map[i].length; j++) {
+                if (map[i][j] == 'C') {
+                    spawnPoints.add(new Position(i, j));
+                }
+            }
+        }
+        for (Enemy enemy : enemies) {
+            if (!spawnPoints.isEmpty()) {
+                Position spawnPoint = spawnPoints.remove(0);
+                this.map.placeEnemy(enemy, spawnPoint.getX(), spawnPoint.getY());
+                System.out.println("Enemy spawned at (" + spawnPoint.getX() + ", " + spawnPoint.getY() + ")");
+            } else {
+                break;
+            }
+        }
+        return enemies;
+    }
+
+    public List<Enemy> getEnemies() {
+        return this.enemies;
+    }
+
+    public void setEnemies(List<Enemy> enemies){
+        this.enemies = enemies;
+    }
+
+}
+```
+
+En la clase Enemy se crea en el metodo *downHealth()* la pre-condicion y post-condicion y en *setReward()* la pre-condicion:
+
+```java
+public class Enemy {
+    private int speed; // número de celdas por turno
+    private int health;
+    private int reward;
+    private Position position;
+
+    public Enemy(int speed, int health, int reward) {
+        this.speed = speed;
+        this.health = health;
+        this.reward = reward;
+        this.position = new Position(0, 0);
+    }
+    // Constructores, getters y setters
+    public int getSpeed(){
+        return this.speed;
+    }
+    public void setSpeed(int speed){
+        this.speed = speed;
+    }
+    public int getHealth(){
+        return this.health;
+    }
+    
+    // Los contratos:
+    public void downHealth(int damage){
+        // Pre-condition
+        assert damage >= 0 : "Damage down has to be positive";
+        int healthVal = this.health;
+        healthVal -= damage;
+        // Post-condition
+        assert healthVal >= 0 : "Health has to be positive";
+        this.health = healthVal;
+    }
+    public int getReward(){
+        return this.reward;
+    }
+
+    public void setReward(int extra){
+        // Pre-condition
+        assert extra >= 0 : "Extra reward has to be positive";
+        this.reward = this.reward + extra;
+    }
+    public void setPosition(int x, int y) {
+        position.setPosition(x, y);
+    }
+    public Position getPosition() {
+        return this.position;
+    }
+}
+```

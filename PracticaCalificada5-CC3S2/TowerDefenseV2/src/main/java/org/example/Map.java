@@ -11,7 +11,6 @@ public class Map {
     private int columns;
     private char[][] mapGrid;
     private List<Position> road;
-            //= List.of(new Position(1,1));
     private Position base;
 
     public Map(){
@@ -67,11 +66,15 @@ public class Map {
     }
 
     public void placeEnemy(Enemy enemy, int x, int y) {
+        // Precondición: el valor debe ser no negativo
+        assert (x >= 0 || y >= 0) : "Coordinates has to be positive";
         mapGrid[x][y] = 'E';
         enemy.setPosition(x, y);
     }
 
     public void placeRoad(int x, int y) {
+        // Precondición: el valor debe ser no negativo
+        assert (x >= 0 || y >= 0) : "Coordinates has to be positive";
         mapGrid[x][y] = 'C';
     }
 

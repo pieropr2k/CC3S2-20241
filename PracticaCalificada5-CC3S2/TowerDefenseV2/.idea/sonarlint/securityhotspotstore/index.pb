@@ -50,8 +50,6 @@ W
 i
 9src/main/java/org/example/enemies/SpeedyEnemyFactory.java,d/b/db1828f7984580f861be6ebda56db6bcca0ebb67
 g
-7src/test/java/org/example/TowerDefenseGameTestzzzz.java,3/0/3027cfc570cc107df8b0526a42bb1db77b2134cb
-g
 7src/test/java/org/example/TowerAttackWithMocksTest.java,7/5/7598d31b61317c97e92aa0c267a4ec61011b80b1
 b
 2src/test/java/org/example/TowerAttackGameTest.java,f/7/f711febacdce7c91f3c74b7676fcaa103b2cd5b1
@@ -63,8 +61,6 @@ _
 /src/test/java/org/example/TowerFactoryTest.java,e/2/e230f2bde956ee4f11d523cc18cc8230e003f70a
 W
 'src/test/java/org/example/WaveTest.java,c/7/c7e8184ad3f66ba4c934063148d9109a5de91402
-a
-1src/test/java/org/example/GameIntegratedTest.java,e/a/eae2b3f9be23ea29e634d5d7f95cc40d2c735004
 b
 2src/test/java/org/example/IntegrationGameTest.java,3/3/33b6e73b8ed58cdede2883a229f73060669bc344
 `

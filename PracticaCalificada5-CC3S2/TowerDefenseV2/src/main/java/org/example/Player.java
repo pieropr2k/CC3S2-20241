@@ -13,7 +13,13 @@ public class Player {
         this.score += points;
     }
     public void deductBaseHealth(int damage) {
-        this.baseHealth -= damage;
+        // Precondición: el valor debe ser no negativo
+        assert damage >= 0 : "Damage down has to be positive";
+        int baseHealthVal = this.baseHealth;
+        baseHealthVal -= damage;
+        // Postcondición: el valor del impuesto debe ser no negativo
+        assert baseHealthVal >= 0 : "Life has to be positive";
+        this.baseHealth -= baseHealthVal;
     }
     public int getScore() {
         return score;
