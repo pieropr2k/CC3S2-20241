@@ -14,16 +14,16 @@ docker container run rancher/cowsay Hello
 
 Se tiene que inicializar el Docker Desktop.
 
-![](docker_version.png)
+![](img/docker_version.png)
 
 Hay que crearse un grupo para no tener la necesidad de poner sudo a todos los comandos:
 
-![](group.png)
+![](img/group.png)
 
 
 Puse el comando *newgrp docker* para activar los cambios en los grupos: 
 
-![](cow.png)
+![](img/cow.png)
 
 ## Kubernetes
 
