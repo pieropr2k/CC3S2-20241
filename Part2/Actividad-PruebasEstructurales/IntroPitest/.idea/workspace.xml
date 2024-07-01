@@ -5,22 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1829e889-3572-4347-b6be-3ddb029ea891" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefense/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/0/9/09aee81b22ecf5cfecda5e431cbab2673b0529fc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/8/f/8f5e24e013eac0abfaee92c4c5f8c0d5dce4b814" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/c/7/c79b411d73b91957ced330f81b0c5dabecd0702d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/0/9/09aee81b22ecf5cfecda5e431cbab2673b0529fc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/8/f/8f5e24e013eac0abfaee92c4c5f8c0d5dce4b814" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/c/7/c79b411d73b91957ced330f81b0c5dabecd0702d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/img/mail_produccion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithKubernetes/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/img/mockito.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/img/mockito.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/img/produccion.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/img/produccion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/.idea/sonarlint/issuestore/3/0/3027cfc570cc107df8b0526a42bb1db77b2134cb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/.idea/sonarlint/issuestore/e/a/eae2b3f9be23ea29e634d5d7f95cc40d2c735004" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/.idea/sonarlint/securityhotspotstore/3/0/3027cfc570cc107df8b0526a42bb1db77b2134cb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/.idea/sonarlint/securityhotspotstore/e/a/eae2b3f9be23ea29e634d5d7f95cc40d2c735004" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/src/main/java/org/example/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/src/main/java/org/example/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/src/main/java/org/example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/src/main/java/org/example/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/src/main/java/org/example/Wave.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/src/main/java/org/example/Wave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/src/main/java/org/example/enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/src/main/java/org/example/enemies/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/src/main/java/org/example/towers/Tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PracticaCalificada5-CC3S2/TowerDefenseV2/src/main/java/org/example/towers/Tower.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

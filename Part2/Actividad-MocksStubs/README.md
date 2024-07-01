@@ -80,10 +80,7 @@ public class StubNumerosAleatorios implements NumerosAleatorios{
 }
 ```
 
-
-Explicación:
-
-Desarrollamos un stub de la interfaz `NumerosAleatorios` para usar en nuestras pruebas unitarias. Este stub nos permite controlar los resultados de los lanzamientos de los dados, lo que es esencial para verificar que nuestro código funcione correctamente. En el método `lanzarDados`, creamos una instancia de `NumerosAleatoriosStub`, establecemos el resultado de `nextInt` en 5, y verificamos que el resultado del lanzamiento de los dados sea 6.
+Creamos el stub de la interfaz NumerosAleatorios, este stub lo creamos para que se controle el resultado numero aleatorio para nuestras pruebas unitarias y este dependa de los parametros que pongamos. En este caso le ponemos como nextInt 3 y se tiene que devolver 4.
 
 #### Paso 4: 
 Escribir pruebas unitarias para LanzamientoDados utilizando el stub para asegurar que la lógica del lanzamiento funciona como se espera bajo condiciones controladas.
@@ -102,10 +99,6 @@ void lanzarDadosConDiferentesResultados(int resultadoEsperado) {
     assertThat(resultado).isEqualTo(resultadoEsperado + 1);
 }
 ```
-
-Explicación:
-
-Para escribir pruebas unitarias para `LanzamientoDados`, utilizamos el stub que desarrollamos en el paso anterior. Utilizamos una prueba parametrizada para probar diferentes resultados posibles de los lanzamientos de dados. En cada prueba, establecemos el resultado de `nextInt` en el valor del resultado esperado, lanzamos los dados, y verificamos que el resultado sea el resultado esperado más uno. 
 
 Tambien podemos usar Mockito:
 
@@ -235,7 +228,16 @@ public class UserNotifications{
 Implementar un mock de MailServer que registre las llamadas a su método sendEmail y capture los valores de los parámetros enviados.
 
 ```java
+@ExtendWith(MockitoExtension.class)
+public class UserNotificationsTest {
+    @Mock
+    private MailServer mailServer;
 
+    @InjectMocks
+    private UserNotifications userNotifications;
+
+    // tests
+}
 ```
 
 ### Paso 4: 
@@ -243,6 +245,26 @@ Implementar un mock de MailServer que registre las llamadas a su método sendEma
 Escribir pruebas unitarias para UserNotifications utilizando el mock para verificar que los correos se envíen correctamente.
 
 ```java
+@ExtendWith(MockitoExtension.class)
+public class UserNotificationsTest {
+    @Mock
+    private MailServer mailServer;
+
+    @InjectMocks
+    private UserNotifications userNotifications;
+
+    @Test
+    void notifyUserSendsEmail(){
+        // Arrange
+        String recipient = "piero.pilco.js@gmail.com";
+        String subject = "Test";
+        String message = "This is a test";
+        // Act
+        userNotifications.notifyUser(recipient, subject, message);
+        // Assert
+        Mockito.verify(mailServer).sendMail(recipient, subject, message);
+    }
+}
 ```
 
 ### Paso 5: 
@@ -250,6 +272,55 @@ Escribir pruebas unitarias para UserNotifications utilizando el mock para verifi
 Implementar una clase RealMailServer que use SMTP para enviar correos en un entorno de producción.
 
 ```java
+public class RealMailServer implements MailServer{
+    String username;
+    String password;
+    String smtpHost;
+    int port;
+
+    public RealMailServer(String username, String password, String smtpHost, int port){
+        this.username = username;
+        this.password = password;
+        this.smtpHost = smtpHost;
+        this.port = port;
+    }
+
+    @Override
+    public void sendMail(String receiver, String subject, String messageContent) {
+        System.out.println("TLSEmail Start");
+
+        Properties properties = new Properties();
+        properties.put("mail.smtp.auth", true);
+        properties.put("mail.smtp.starttls.enable", "true");
+        properties.put("mail.smtp.host", smtpHost);
+        properties.put("mail.smtp.port", String.valueOf(port));
+        properties.put("mail.smtp.ssl.trust", smtpHost);
+
+        // crea el objeto Authenticator para pararlo en Session.getInstance()
+        Session session = Session.getInstance(properties, new Authenticator() {
+            @Override
+            protected PasswordAuthentication getPasswordAuthentication() {
+                return new PasswordAuthentication(username, password);
+            }
+        });
+
+        try {
+            Message mimeMsg = new MimeMessage(session);
+            mimeMsg.setFrom(new InternetAddress(username));
+            mimeMsg.setRecipient(Message.RecipientType.TO, new InternetAddress(receiver));
+            mimeMsg.setSubject(subject);
+            // Le damos formato
+            MimeBodyPart mimeBodyPart = new MimeBodyPart();
+            mimeBodyPart.setContent(messageContent, "text/html; charset=utf-8");
+            Multipart multipart = new MimeMultipart();
+            multipart.addBodyPart(mimeBodyPart);
+            mimeMsg.setContent(multipart);
+            Transport.send(mimeMsg);
+        } catch (MessagingException e) {
+            throw new RuntimeException(e);
+        }
+    }
+}
 ```
 
 ### Paso 6: 
@@ -257,4 +328,21 @@ Implementar una clase RealMailServer que use SMTP para enviar correos en un ento
 Integrar UserNotifications en una aplicación de producción, inyectando la implementación real de MailServer.
 
 ```java
+public class Main {
+    public static void main(String[] args) {
+        String username = SecretValues.senderMail; //requires valid gmail id
+        String password = SecretValues.password; // correct password for gmail app id
+        String toEmail = SecretValues.toEmail; // can be any email id
+        String smtpHost = "smtp.gmail.com";
+
+        int port = 587;
+        RealMailServer server = new RealMailServer(username, password, smtpHost, port);
+        UserNotifications userNotifications = new UserNotifications(server);
+        for (int i = 0; i < 2; i++) {
+            userNotifications.notifyUser(toEmail, SecretValues.subject, SecretValues.message);
+        }
+    }
+}
 ```
+
+![](img/mail_produccion.png)

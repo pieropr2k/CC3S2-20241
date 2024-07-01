@@ -11,3 +11,12 @@ Y
 )src/main/java/org/example/MailServer.java,e/e/eecf43de9ca478b31ed44104feac4b86f6c3fe37
 X
 (src/test/java/UserNotificationsTest.java,d/5/d51a3a9e3c2dbe08bae761e1cffaa3ef50748f7e
+[
++src/main/java/org/example/SecretValues.java,8/f/8f5e24e013eac0abfaee92c4c5f8c0d5dce4b814
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+T
+$src/main/java/org/example/.gitignore,c/7/c79b411d73b91957ced330f81b0c5dabecd0702d
+H
+src/main/java/.gitignore,0/9/09aee81b22ecf5cfecda5e431cbab2673b0529fc
