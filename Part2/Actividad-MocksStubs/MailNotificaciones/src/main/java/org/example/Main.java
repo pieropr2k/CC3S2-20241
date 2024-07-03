@@ -10,7 +10,7 @@ public class Main {
         int port = 587;
         RealMailServer server = new RealMailServer(username, password, smtpHost, port);
         UserNotifications userNotifications = new UserNotifications(server);
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 3; i++) {
             userNotifications.notifyUser(toEmail, SecretValues.subject, SecretValues.message);
         }
     }

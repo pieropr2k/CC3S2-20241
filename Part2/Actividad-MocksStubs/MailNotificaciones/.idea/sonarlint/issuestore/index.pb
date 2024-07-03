@@ -16,7 +16,3 @@ X
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-T
-$src/main/java/org/example/.gitignore,c/7/c79b411d73b91957ced330f81b0c5dabecd0702d
-H
-src/main/java/.gitignore,0/9/09aee81b22ecf5cfecda5e431cbab2673b0529fc

@@ -1,0 +1,30 @@
+version: '3'
+services:
+  game:
+    build: ./Game
+    networks:
+      - game-network
+    volumes:
+      - game-data:/app/data
+  map:
+    build: ./Map
+    networks:
+      - game-network
+  player:
+    build: ./Player
+    networks:
+      - game-network
+  tower:
+    build: ./Tower
+    networks:
+      - game-network
+  wave:
+    build: ./Wave
+    networks:
+      - game-network
+networks:
+  game-network:
+    driver: bridge
+volumes:
+  game-data:
+    driver: local

@@ -5,27 +5,267 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1829e889-3572-4347-b6be-3ddb029ea891" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/0/9/09aee81b22ecf5cfecda5e431cbab2673b0529fc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/8/f/8f5e24e013eac0abfaee92c4c5f8c0d5dce4b814" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/c/7/c79b411d73b91957ced330f81b0c5dabecd0702d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/0/9/09aee81b22ecf5cfecda5e431cbab2673b0529fc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/8/f/8f5e24e013eac0abfaee92c4c5f8c0d5dce4b814" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/c/7/c79b411d73b91957ced330f81b0c5dabecd0702d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/img/mail_produccion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithKubernetes/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/0/a/0ac613e88e413b4816ed0fdde1a441235577ea3a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/0/d/0d8b937cd15899b4d5ac246469102f633c327110" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/0/d/0de25a581158bb1a89fc22bc09adc5e5516d8f75" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/1/2/124228dd0d077f189d596813a7211239729c1fde" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/1/3/13bb5b289562378898e6c1d836522d2939d4f5e6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/1/b/1be7500ef6aae4cb4726aae08adc2a5abab009be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/2/e/2e3685ce6392c2cd4a5f2376eb91381633911f60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/4/5/45f0231d21fb7a1318d75f25489d2d97be07e2e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/4/8/4881e5e04589b19a6e315c6f0a20f63ef6575d5d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/4/9/49b3098cc81f70a8d9f71a2476d2c87dc622f710" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/4/b/4bd29ec02e2aeec0425d4d3269c4ef21c5c3476b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/5/3/53bef037e3d21da89e94ce0ff37e7739c1cdb86d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/5/c/5cb34d57baea1b25068aaebd3cebf2251fc45fce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/6/9/696ec804499086cafad39da490ac4678598cf365" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/6/e/6e7df999ceaacff7bea963b970a29ec8d385c764" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/a/0/a04f0762d6d3396ef33833e18ef6290ab1aa5e68" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/a/1/a12979fcf566ac6611420fde8abf559c0672375e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/b/5/b503a5dc63e9629d5aef7e40a71133915ebc433c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/d/1/d190a4f2e03b654d8da1e2ffa8dba40e57300356" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/e/f/ef3fb073d4be4abf66082de4c77275bdbd52f781" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/f/1/f15f1cd4d023601e5ef4084fc06060aede28ae3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/f/e/fee87fa9c863ec5296f764d1649ed18dc4f165ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/0/a/0ac613e88e413b4816ed0fdde1a441235577ea3a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/0/d/0d8b937cd15899b4d5ac246469102f633c327110" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/0/d/0de25a581158bb1a89fc22bc09adc5e5516d8f75" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/1/2/124228dd0d077f189d596813a7211239729c1fde" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/1/3/13bb5b289562378898e6c1d836522d2939d4f5e6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/1/b/1be7500ef6aae4cb4726aae08adc2a5abab009be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/2/e/2e3685ce6392c2cd4a5f2376eb91381633911f60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/4/5/45f0231d21fb7a1318d75f25489d2d97be07e2e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/4/8/4881e5e04589b19a6e315c6f0a20f63ef6575d5d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/4/9/49b3098cc81f70a8d9f71a2476d2c87dc622f710" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/4/b/4bd29ec02e2aeec0425d4d3269c4ef21c5c3476b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/5/3/53bef037e3d21da89e94ce0ff37e7739c1cdb86d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/5/c/5cb34d57baea1b25068aaebd3cebf2251fc45fce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/6/9/696ec804499086cafad39da490ac4678598cf365" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/6/e/6e7df999ceaacff7bea963b970a29ec8d385c764" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/a/0/a04f0762d6d3396ef33833e18ef6290ab1aa5e68" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/a/1/a12979fcf566ac6611420fde8abf559c0672375e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/b/5/b503a5dc63e9629d5aef7e40a71133915ebc433c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/d/1/d190a4f2e03b654d8da1e2ffa8dba40e57300356" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/e/f/ef3fb073d4be4abf66082de4c77275bdbd52f781" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/f/1/f15f1cd4d023601e5ef4084fc06060aede28ae3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/f/e/fee87fa9c863ec5296f764d1649ed18dc4f165ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Game/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Game/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Game/game-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Game/game-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Map/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Map/MapService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Map/map-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Map/map-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Player/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Player/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Player/player-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Player/player-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Tower/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Tower/TowerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Tower/tower-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Tower/tower-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Wave/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Wave/WaveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Wave/wave-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/Wave/wave-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/main/java/org/example/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-Microservicios/TowerDefenseV3/src/test/java/org/example/GameServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/Eclipse-README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/Eclipse-README_es.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/IntelliJ-README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/IntelliJ-README_es.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/NetBeans-README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/NetBeans-README_es.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/README_es.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/java/com/docker/UserSignup/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/java/com/docker/UserSignup/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/java/com/docker/UserSignup/model/UserLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/java/com/docker/UserSignup/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/java/com/docker/UserSignup/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/java/com/docker/UserSignup/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/java/com/docker/UserSignup/util/Rot13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/resources/jpaContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/WEB-INF/config/servletConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/WEB-INF/jsp/failure.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/WEB-INF/jsp/signup.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/assets/css/bootstrap-united.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/assets/css/bootstrap-united.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/assets/img/dockercon2035.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/datepicker/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/datepicker/less/datepicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/app/src/main/webapp/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_login2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_login3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_login_fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_login_fail2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_login_fail3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_signup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_signup2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_signup3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_signup_confirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_signup_confirm2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_signup_confirm3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_debug_success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_index_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_index_page3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_register_moby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_register_moby2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/app_register_moby3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_UserServiceImpl_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_UserServiceImpl_values.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_User_breakpoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_User_getPassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_User_moby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_User_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_User_show_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_configure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_configure2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_configure_docker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_configure_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_perspective.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_debug_resume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_clone_uri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_clone_uri2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_import_project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_import_project2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_import_repo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_import_repo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_import_wizard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_import_wizard2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_local_destination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_local_destination2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_repo_uri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_repo_uri2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_select_branch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_git_select_branch2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_import_existing_maven_project_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_import_existing_maven_project_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_import_existing_maven_project_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_maven_build_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_maven_console_build_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_maven_run_config.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_maven_run_config3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_maven_run_config_apply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_run_configuration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_run_configuration2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_run_configuration3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/eclipse_set_run_configuration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intelij_debug_run_edit_configurations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intelliJ_git_clone_repository.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intelliJ_git_clone_repository1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intelliJ_git_import_project_finish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intelliJ_git_import_project_libraries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intelliJ_git_import_project_modules.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intelliJ_git_import_project_sdk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intelliJ_git_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intelliJ_git_open_project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intelliJ_git_open_project_gui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intelligj_maven_goal_install_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_debug_UserServiceImpl_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_debug_UserServiceImpl_values.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_debug_User_getPassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_debug_User_moby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_debug_User_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_debug_User_show_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_debug_add_remote_configuration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_debug_choose_remote_tomcat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_debug_resume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_debug_set_breakpoint_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_debug_tomcat_remote_settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_git_import_project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_git_import_project_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_github_import_maven.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_github_import_maven_configure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_github_import_maven_select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_github_import_project_finish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_github_import_select_sdk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_maven_goal_clean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_maven_goal_clean_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_maven_goal_clean_run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_maven_goal_install.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_maven_goal_install_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_maven_goal_install_run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_maven_setup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/intellij_run_debug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_build_project_console.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_build_project_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_debug_UserServiceImpl_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_debug_UserServiceImpl_values.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_debug_User_breakpoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_debug_User_moby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_debug_User_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_debug_User_show_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_debug_attach_debugger_configure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_debug_attach_debugger_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_debug_resume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_open_project_app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/netbeans_open_project_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/qimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/resizeImg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/thirdimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/tomcat_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/tomcat_home2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/tomcat_home3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/tomcat_web_application_manager.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/images/tomcat_web_application_manager3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/registration-database/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/registration-database/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/registration-database/docker-entrypoint-initdb.d/initialize_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/registration-webserver/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/registration-webserver/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/registration-webserver/tomcat/mysql-connector-java-5.1.36-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/registration-webserver/tomcat/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Actividad-PlayWithDocker/stage2/java-debugging/registration-webserver/tomcat/tomcat-users.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/img/mockito.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/img/mockito.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/img/produccion.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/img/produccion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/0/9/09aee81b22ecf5cfecda5e431cbab2673b0529fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/c/7/c79b411d73b91957ced330f81b0c5dabecd0702d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/0/9/09aee81b22ecf5cfecda5e431cbab2673b0529fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/c/7/c79b411d73b91957ced330f81b0c5dabecd0702d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +281,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pieropr2k&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:pieropr2k/CC3S2-20241.git&quot;,
+    &quot;accountId&quot;: &quot;2926e6c5-8bb7-42d6-95d9-af76c71bebf7&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>

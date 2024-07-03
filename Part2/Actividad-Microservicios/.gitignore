@@ -1,0 +1,101 @@
+# Actividad: Mockito
+
+### Agregar Mockito al proyecto
+Primero, para que Mockito esté disponible en nuestro proyecto, actualizaremos el archivo de
+compilación para incluir Mockito. El siguiente ejemplo usa Gradle como herramienta de compilación,
+pero la versión Maven usa las mismas coordenadas para las dependencias JUnit 5 y Mockito.
+Puedes utilizar el archivo libs.versions.toml
+
+### Ejercicio 1: Implementar un servicio de log de eventos
+Objetivo: Crear un microservicio adicional que registre todos los eventos importantes del juego, como la
+colocación de torres y el inicio de oleadas.
+
+Pasos:
+1. Crear el microservicio LogService:
+
+![](img/ex1_logservice.png)
+
+2. Modificar GameService para usar LogService:
+
+![](img/ex1_gameservice.png)
+
+3. Crear Dockerfile para LogService:
+
+![](img/ex1_dockerfile.png)
+
+4. Actualizar docker-compose.yml:
+
+![](img/ex1_compose.png)
+
+5. Crear y desplegar el contenedor LogService:
+
+![](img/ex1_container_deploy.png)
+
+### Ejercicio 2: Implementar un sistema de autenticación
+
+Explica qué hacen las líneas 1 y 2 del código. . Presenta un informe generado por JaCoCo
+(www.jacoco.org/jacoco) u otra herramienta de cobertura de código de tu preferencia en el IDE del
+curso.
+
+```
+```
+### Ejercicio 3: Implementar comunicación entre microservicios
+
+
+```
+rootProject.name = 'Actividad-Mockito'
+
+
+dependencyResolutionManagement {
+    versionCatalogs {
+        libs {
+            from(files("gradle/libs.versions.toml"))
+        }
+    }
+}
+
+```
+
+## Ejercicio 4: Implementar escalado automático con Kubernetes
+Objetivo: Configurar el escalado automático de los microservicios en Kubernetes basado en el uso de CPU.
+Pasos:
+1. Agregar configuración de escalado automático:
+ - Crear un archivo hpa.yaml para configurar el escalado automático horizontal (HPA).
+
+![](img/ex4_conf.png)
+
+![](img/ex4_cmd.png)
+
+## Ejercicio 5: Implementar un servicio de Notificaciones
+
+
+
+
+
+
+## Ejercicio 6: Implementar monitoreo con Prometheus y Grafana
+Objetivo: Integrar Prometheus y Grafana para monitorear los microservicios.
+
+Pasos:
+1. Agregar Prometheus y Grafana a docker-compose.yml:
+
+![](img/ex6_add.png)
+
+2. Configurar Prometheus:
+
+![](img/ex6_conf_prom.png)
+
+3. Configurar exportadores en los microservicios:
+
+![](img/ex6_conf_exp.png)
+
+4. Agregar dependencias de Prometheus en pom.xml:
+
+![](img/ex6_pom.png)
+
+5. Crear y desplegar los contenedores:
+
+
+![](img/ex6_pom.png)
+
+
