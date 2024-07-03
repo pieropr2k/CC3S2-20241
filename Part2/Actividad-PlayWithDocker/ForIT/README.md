@@ -58,11 +58,11 @@ Usamos el contenedor como linea de comandos otra vez y creamos un archivo de tex
 
 Es el mismo comando ls que usamos dentro del shell ash interactivo del contenedor, pero esta vez, ¿notaste que falta el archivo “hello.txt”? ¡Eso es **aislamiento**! Su comando se ejecutó en una instancia nueva e independiente, aunque esté basada en la misma imagen. La segunda instancia no tiene forma de interactuar con la primera instancia porque Docker Engine las mantiene separadas y no hemos configurado ningún parámetro adicional que permita que estas dos instancias interactúen.
 
-![](img/hello/isolation.png)
+![](img/hello/isolation.PNG)
 
 Esto es lo que paso:
 
-![](img/hello/aislamiento.png)
+![](img/hello/aislamiento.PNG)
 
 Corremos el container con su id y lo comprobamos (no es necesario escribir todo su id, con unas palabras basta) 
 
@@ -73,7 +73,7 @@ Adicionalmente ejecutamos un comando dentro del container para listar los archiv
 
 `docker container exec 2f59 ls`
 
-![](img/container_id.png)
+![](img/container_id.PNG)
 
 
 ##  Customizing Docker Images
@@ -86,7 +86,7 @@ Corremos una terminal interactiva mediante un container de ubuntu
 
 `docker container -it ubuntu bash`
 
-![](img/custom/initial_shell.png)
+![](img/custom/initial_shell.PNG)
 
 Luego instalamos el paquete figlet
 ```
@@ -94,24 +94,24 @@ apt-get update
 apt-get install -y figlet
 figlet "hello docker"
 ```
-![](img/custom/figlet.png)
+![](img/custom/figlet.PNG)
 
 
 Ahora vamos a convertir nuestro contenedor en una imagen compartible con otros contenedores, para esto ejecutaremos este comando:
  
 `docker container commit <containerID>`
 
-![](img/custom/docker_commit.png)
+![](img/custom/docker_commit.PNG)
 
 Vamos a darle nombre a nuestra imagen para mayor facilidad de identificacion:
 
 `docker image tag <imageID> <etiqueta>`
 
-![](img/custom/name_image.png)
+![](img/custom/name_image.PNG)
 
 Correremos el contenedor para ver si la imagen funciona:
 
-![](img/custom/run_image.png)
+![](img/custom/run_image.PNG)
 
 ##  Deploy and managing multiple containers
 
@@ -123,13 +123,13 @@ Inicializamos el docker swarm mode en node1
 
 `docker swarm init --advertise-addr $(hostname -i)`
 
-![](img/swarm/swarm_node1.png)
+![](img/swarm/swarm_node1.PNG)
 
 Copiamos el comando de arriba y lo ponemos en la terminal de node2 para unirlo al swarm:
 
 `docker swarm join --token SWMTKN-1-52fuygcfh5leifpgjumhtwkzbcby6cdmb5pb2f5mej2edt9k2f-f173aoteyylb02zcenhr3btb1 192.168.0.23:2377`
 
-![](img/swarm/node2_join.png)
+![](img/swarm/node2_join.PNG)
 
 #### Show Swarm Members
 
@@ -137,35 +137,35 @@ Ahora verificamos que se haya agregado node2 como worker de node1:
 
 `docker node ls`
 
-![](img/swarm/node_members.png)
+![](img/swarm/node_members.PNG)
 
 #### Clone the Voting App
 
 Clonamos el sgte repositorio:
 
-![](img/swarm/clone.png)
+![](img/swarm/clone.PNG)
 
 #### Deploy a Stack
 
 Este es el archivo yaml del repo:
 
-![](img/swarm/cat.png)
+![](img/swarm/cat.PNG)
 
 Hacemos deploy de la app usando el yaml 
 
 `docker stack deploy --compose-file=docker-stack.yml voting_stack`
 
-![](img/swarm/deploy.png)
+![](img/swarm/deploy.PNG)
 
 Con el comando `docker stack ls` se puede ver que se ha deployado
 
 Aca podemos ver la lista de servicios del stack:
 
-![](img/swarm/services.png)
+![](img/swarm/services.PNG)
 
 La lista de tareas del servicio voting_stack_vote
 
-![](img/swarm/vote_service.png)
+![](img/swarm/vote_service.PNG)
 
 #### Scaling An Application
 
@@ -173,7 +173,7 @@ Escalamos la app:
 
 `docker service scale voting_stack_vote=5`
 
-![](img/swarm/scaling.png)
+![](img/swarm/scaling.PNG)
 
 
 # Stage 2
@@ -183,7 +183,7 @@ Escalamos la app:
 
 #### Step 1: Clone the labs GitHub repo
 
-![](img/clone.png)
+![](img/clone.PNG)
 
 #### Step 2: Test a seccomp profile
 
@@ -191,7 +191,7 @@ En este paso, utilizará el perfil seccomp deny.json incluido en el repositorio 
 
 Se usa el comando `docker run` para intentar iniciar un nuevo contenedor con todas las capacidades agregadas, la apariencia (apparmor) ilimitada y el perfil seccomp-profiles/deny.json seccomp aplicado.
 
-![](img/run.png)
+![](img/run.PNG)
 
 
 
@@ -302,7 +302,7 @@ docker run --rm -it --cap-add chown -u nobody alpine chown nobody /
 ```
 Este comando falla, esto debido a que Docker aún no soporta agregar capacidades a usuarios no-root.
 
-![](img/step3.png)
+![](img/step3.PNG)
 
 
 ### Step 4: Extra for experts
@@ -327,12 +327,12 @@ Comandos:
 
 El siguiente comando inicia un nuevo contenedor usando Alpine Linux, instala el paquete libcap y luego lista las capacidades:
 
-![](img/list_capabilities.png)
+![](img/list_capabilities.PNG)
 
 #### Experimentar con capacidades
 El comando capsh es útil para experimentar con capacidades. Usar capsh --help muestra cómo usar el comando:
 
-![](img/exp_capabilities.png)
+![](img/exp_capabilities.PNG)
 
 ## Docker Networking Hands-on Lab
 
@@ -347,7 +347,7 @@ Este comando es el principal para configurar y gestionar redes de contenedores:
 docker network
 ```
 
-![](img/docker_network.png)
+![](img/docker_network.PNG)
 
 
 Step 2: List networks
@@ -358,7 +358,7 @@ Este comando sirve para ver las redes de contenedores existentes en nuestro Dock
 docker network ls 
 ```
 
-![img_1.png](img/docker_redes.png)
+![img_1.png](img/docker_redes.PNG)
 
 **Step 3: Inspect a network**
 
@@ -370,7 +370,7 @@ docker network inspect <nombre_red>
 
 En este caso la red es Bridge
 
-![](img/docker_bridge.png)
+![](img/docker_bridge.PNG)
 
 **Step 4: List network driver plugins**
 
@@ -382,11 +382,11 @@ docker info
 
 Tanto la version del Docker instalado:
 
-![](img/docker_version.png)
+![](img/docker_version.PNG)
 
 Como otros datos del servidor como contenedores y etc:
 
-![](img/docker_server_info.png)
+![](img/docker_server_info.PNG)
 
 
 
@@ -400,7 +400,7 @@ Verificamos si la red creada previamente esta:
 docker network ls 
 ```
 
-![](img/show_networks.png)
+![](img/show_networks.PNG)
 
 Este resultado indica que la red bridge tiene alcance local: osea que solo existe en este host de Docker. Y esto es porque se aplica a todas las redes que utilizan el driver `bridge`.
 
@@ -408,17 +408,17 @@ Todas las redes creadas por el drive bridge se basan en un puente de Linux.
 
 Instalaremos el comando brctl y lo usaremos para enumerar los puentes de Linux en nuestro host Docker.
 
-![](img/docker_apk_update.png)
+![](img/docker_apk_update.PNG)
 
 Aca se pueden ver todos los bridges-puentes Linux en el host Docker:
 
-![](img/bridges_list.png)
+![](img/bridges_list.PNG)
 
 El resultado anterior muestra un único puente-bridge de Linux llamado docker0. Este es el puente que se creó automáticamente para la red de puentes. Se puede ver que actualmente no tiene interfaces conectadas.
 
 También puede utilizar el comando ip a para ver los detalles del puente docker0:
 
-![](img/ip_a.png)
+![](img/ip_a.PNG)
 
 
 #### Step 2: Connect a container
@@ -427,7 +427,7 @@ La red bridge, por defecto se conecta a los contenedores cuando no especificamos
 
 La red puente es la red predeterminada para nuevos contenedores. Esto significa que los contenedores nuevos se conectarán a la red puente por defecto, a menos que especifique una red diferente.
 
-![](img/docker_sleep.png)
+![](img/docker_sleep.PNG)
 
 Este comando creará un nuevo contenedor basado en la imagen ubuntu:latest y ejecutará el comando sleep para mantener el contenedor ejecutándose en segundo plano.
 
@@ -452,7 +452,7 @@ En lugar de ejecutar contenedores manualmente en un solo nodo, como se muestra c
 docker run -dt ubuntu sleep infinity
 ```
 
-![](img/orchestation/sleep.png)
+![](img/orchestation/sleep.PNG)
 
 Este comando creará un nuevo contenedor basado en la imagen ubuntu:latest y ejecutará el comando de suspensión para mantener el contenedor ejecutándose en segundo plano.
 
@@ -460,7 +460,7 @@ Este comando creará un nuevo contenedor basado en la imagen ubuntu:latest y eje
 docker ps
 ```
 
-![](img/orchestation/docker_ps.png)
+![](img/orchestation/docker_ps.PNG)
 
 Para evitar hacer esto configuraremos el modo Swarm el cual tiene como funcionalidad crear un grupo autogestionado de motores Docker, conocido como un "swarm". Este swarm puede incluir nodos administradores y nodos trabajadores, donde los administradores mantienen el estado del swarm y programan los contenedores de aplicación, mientras que los nodos trabajadores ejecutan dichos contenedores.
 
@@ -481,7 +481,7 @@ Crearemos un nodo manager en node1:
 docker swarm init --advertise-addr $(hostname -i)
 ```
 
-![](img/orchestation/docker_ps.png)
+![](img/orchestation/docker_ps.PNG)
 
 Veamos que, en efecto, el nodo1 es un nodo manager con el comando.
 
@@ -491,9 +491,9 @@ docker info
 
 Se puede ver que hay un solo nodo en node1 y es el mismo:
 
-![](img/orchestation/node1_info.png)
+![](img/orchestation/node1_info.PNG)
 
-![](img/orchestation/node1_info_manager.png)
+![](img/orchestation/node1_info_manager.PNG)
 
 #### Step 2.2 - Join Worker nodes to the Swarm**
 
@@ -503,11 +503,11 @@ Unimos los nodos 2 y 3 al Swarm mediante el comando lanzado previamente con `doc
  docker swarm join --token SWMTKN-1-20f908i0eo3wrasucdvdq3zgdluv7molev8w4t87j0s7ftmwso-2f91xtcw9h4sikahdqqjenu7r 192.168.0.7:2377
 ```
 
-![](img/orchestation/docker_swarm_join.png)
+![](img/orchestation/docker_swarm_join.PNG)
 
 Luego en el nodo1 (nodo manager) podemos ver que existen 3 nodos, el nodo mismo y los otros 2 nodos workers que se unieron al swarm:
 
-![](img/orchestation/docker_node_ls.png)
+![](img/orchestation/docker_node_ls.PNG)
 
 ### Section 3: Deploy applications across multiple hosts
 
@@ -521,11 +521,11 @@ Implementemos sleep como servicio en nuestro Docker Swarm.
 docker service create --name sleep-app ubuntu sleep infinity
 ```
 
-![](img/orchestation/docker_service_create.png)
+![](img/orchestation/docker_service_create.PNG)
 
 Listamos los servicios ejecutandose en este nodo.
 
-![](img/orchestation/service_ls.png)
+![](img/orchestation/service_ls.PNG)
 
 En este punto, puede parecer que no hemos hecho nada muy diferente a simplemente ejecutar una ventana acoplable.... Nuevamente hemos implementado un solo contenedor en un solo host. La diferencia aquí es que el contenedor se programó en un clúster Swarm.
 
@@ -541,7 +541,7 @@ Se puede escalar y hacer que la aplicacion tenga 7 replicas con el siguiente com
 docker service update --replicas 7 sleep-app
 ```
 
-![](img/orchestation/seven_sleep.png)
+![](img/orchestation/seven_sleep.PNG)
 
 Usaremos este comando para ver todos los servicios de sleep-app:
 
@@ -579,12 +579,12 @@ Vamos a reducir el numero de replicas de a 4 con el sgte comando:
 docker service update --replicas 4 sleep-app
 ```
 
-![](img/orchestation/reduced_replicas.png)
+![](img/orchestation/reduced_replicas.PNG)
 
 Ahora verificamos que justamente existen 4 replicas de la aplicacion ejecutandose...
 
 
-![](img/orchestation/sleep_veri.png)
+![](img/orchestation/sleep_veri.PNG)
 
 
 ### Section 5: Drain a node and reschedule the containers
@@ -597,7 +597,7 @@ Verificamos en el nodo manager el estado de los nodos, para esto corremos el sig
 docker node ls
 ```
 
-![](img/orchestation/node_ls.png)
+![](img/orchestation/node_ls.PNG)
 
 Dejaremos el nodo 2 fuera de servicio por mantenimiento.
 
@@ -624,7 +624,7 @@ docker node ls
 Y en la salida podemos ver que el nodo2 tiene un ID igual a yu3h...
 
 
-![](img/orchestation/node_ls_2_5.png)
+![](img/orchestation/node_ls_2_5.PNG)
 ```
 ID                           HOSTNAME  STATUS  AVAILABILITY  MANAGER STATUS
 6dlewb50pj2y66q4zi3egnwbi *  node1   Ready   Active        Leader
@@ -657,7 +657,7 @@ docker ps
 
 Podemos ver que no hay ningun contenedor corriendo en este nodo:
 
-![](img/orchestation/node2_drain.png)
+![](img/orchestation/node2_drain.PNG)
 
 
 Nuevamente verificamos  el servicio nuevamente en el nodo1 para asegurarse de que el contenedor haya sido reprogramado. Debería ver los cuatro contenedores ejecutándose en los dos nodos restantes.
