@@ -17,7 +17,7 @@ Correremos el contenedor de Alpine Linux el cual es una distribucion de Linux li
 
 Verificaremos con `docker image ls` que se creo:
 
-![](img/hello/image.png)
+![](img/hello/image.PNG)
 
 #### 1.1 Docker Container Run
 
@@ -25,20 +25,20 @@ Corremos el docker container basado en su imagen (osea Alpine en este caso):
 
 `docker container run alpine ls -l`
 
-![](img/hello/container_run.png)
+![](img/hello/container_run.PNG)
 
 
 Hecho esto ahora podemos poner comandos en nuestro contenedor, recordar que es una distribucion de Linux:
 
 `docker container run alpine echo "hello from alpine"`
 
-![](img/hello/container_echo.png)
+![](img/hello/container_echo.PNG)
 
 Ya que el contenedor es una distribucion Linux, en vez de poner un solo comando por que no aprovechar en poder usar mas de uno:
 
 `docker container run -it alpine /bin/ash`
 
-![](img/hello/container_command.png)
+![](img/hello/container_command.PNG)
 
 OJO: importante poner el -it para que podamos seguir usando la consola y no se cierre automaticamente.
 
@@ -46,7 +46,7 @@ Ponemos estos comandos para ver la lista de contenedores:
 
 `docker container ls -a`
 
-![](img/hello/containers_list.png)
+![](img/hello/containers_list.PNG)
 
 -a: poner esto para ver todos los contenedores que se han corrido y ademas de los que actualmente siguen corriendo.
 
@@ -54,7 +54,7 @@ Ponemos estos comandos para ver la lista de contenedores:
 
 Usamos el contenedor como linea de comandos otra vez y creamos un archivo de texto `echo "hello world" > hello.txt`
 
-![](img/hello/container_text.png)
+![](img/hello/container_text.PNG)
 
 Es el mismo comando ls que usamos dentro del shell ash interactivo del contenedor, pero esta vez, ¿notaste que falta el archivo “hello.txt”? ¡Eso es **aislamiento**! Su comando se ejecutó en una instancia nueva e independiente, aunque esté basada en la misma imagen. La segunda instancia no tiene forma de interactuar con la primera instancia porque Docker Engine las mantiene separadas y no hemos configurado ningún parámetro adicional que permita que estas dos instancias interactúen.
 
