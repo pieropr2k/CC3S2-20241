@@ -183,7 +183,7 @@ Escalamos la app:
 
 #### Step 1: Clone the labs GitHub repo
 
-![](img/clone.PNG)
+![](img/seccomp/clone.PNG)
 
 #### Step 2: Test a seccomp profile
 
@@ -191,7 +191,7 @@ En este paso, utilizará el perfil seccomp deny.json incluido en el repositorio 
 
 Se usa el comando `docker run` para intentar iniciar un nuevo contenedor con todas las capacidades agregadas, la apariencia (apparmor) ilimitada y el perfil seccomp-profiles/deny.json seccomp aplicado.
 
-![](img/run.PNG)
+![](img/seccomp/run.PNG)
 
 
 
@@ -219,8 +219,6 @@ Ejemplo de estos son:
 
 - **CAP_CHOWN** : Permite al root cambiar los UIDs y GIDs de archivos arbitrariamente
 - **CAP_DAC_OVERRIDE**: Permite al root omitir las verificaciones de permisos del kernel en operaciones de lectura, escritura y ejecución de archivos.
- 
-
 
 En general se entiende que cualquier permiso (accion que puede realizar un usuario sobre los recursos del sistema) es una capacidad.
 
@@ -302,7 +300,7 @@ docker run --rm -it --cap-add chown -u nobody alpine chown nobody /
 ```
 Este comando falla, esto debido a que Docker aún no soporta agregar capacidades a usuarios no-root.
 
-![](img/step3.PNG)
+![](img/seccomp/step3.PNG)
 
 
 ### Step 4: Extra for experts
@@ -327,12 +325,12 @@ Comandos:
 
 El siguiente comando inicia un nuevo contenedor usando Alpine Linux, instala el paquete libcap y luego lista las capacidades:
 
-![](img/list_capabilities.PNG)
+![](img/seccomp/list_capabilities.PNG)
 
 #### Experimentar con capacidades
 El comando capsh es útil para experimentar con capacidades. Usar capsh --help muestra cómo usar el comando:
 
-![](img/exp_capabilities.PNG)
+![](img/seccomp/exp_capabilities.PNG)
 
 ## Docker Networking Hands-on Lab
 

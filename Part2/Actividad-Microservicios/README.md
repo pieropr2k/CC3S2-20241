@@ -36,6 +36,8 @@ Pasos:
 
 - Instalar Docker, Docker Compose y Minikube (o un clúster Kubernetes equivalente).
 
+Se instalo en anteriores actividades
+
 2. Desarrollar los microservicios:
 
 - Crear los archivos Java para cada microservicio (GameService, MapService, PlayerService, TowerService, WaveService).
