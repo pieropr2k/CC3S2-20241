@@ -1,6 +1,4 @@
-# Actividad Play With Docker
-
-En esta actividad haremos los Stage 1 y 2 del proyecto PWD (Play with Docker), estos stages los encuentras en [Play with Docker Stages](https://training.play-with-docker.com/)
+# Actividad Play With Kubernetes
 
 # Iniciar el cluster
 

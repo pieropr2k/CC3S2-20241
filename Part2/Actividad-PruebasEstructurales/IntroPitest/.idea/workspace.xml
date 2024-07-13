@@ -5,65 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1829e889-3572-4347-b6be-3ddb029ea891" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/0/1/0130bba23b3e4a644405de60d9f7d72f935a20bf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/0/9/09bf5735d4cb01d5203c2294fa32f9fb36c8f3c5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/1/8/18564f1c153bb25d717564f2c9c91a5a392ee0a2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/3/a/3a20d8199ca10c28c7713f4bcdce52e001d4a1a7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/4/9/49b94ba9c9818f448c35f471308889c3968eea66" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/6/1/61ccf4a1ab2ae264375bb2064546df82edec660e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/6/d/6d9362373e00cf5ed644e569f5f264a23972393c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/7/6/7693c061385354b0a7b48157fe751d68d91c9c5f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/7/9/79171bf98de1509688762834e90bc0a19ca89772" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/7/f/7fd1f913009711df7d032b0f96ad35550bcc8756" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/8/1/8140ff84d995d7f9dbbc667cb2d824f6b7411130" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/8/8/886bcf7bf7465fb35c67d4f394514d02a8a1e100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/a/0/a0ec0a3dd35aa18b6e5d5bb66b9c1450ee43c1f5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/b/0/b0156363d365a06b58e27717004f9645e1d52423" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/b/5/b5fdc5bbba2c391e37c3984b5a4b0e79cb7f638d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/b/d/bdfc54a2df1aff3c53f4b18a66796dd40d3aebeb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/c/d/cdd5ddc7680489e1dcec56ccb9990677ef908df5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/d/6/d671bdd322bbcdfeab76688894d6d82492606727" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/issuestore/e/a/ea7204a00b569b00238f20c8beeedaed0c1b657c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/0/1/0130bba23b3e4a644405de60d9f7d72f935a20bf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/0/9/09bf5735d4cb01d5203c2294fa32f9fb36c8f3c5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/1/8/18564f1c153bb25d717564f2c9c91a5a392ee0a2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/3/a/3a20d8199ca10c28c7713f4bcdce52e001d4a1a7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/4/9/49b94ba9c9818f448c35f471308889c3968eea66" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/6/1/61ccf4a1ab2ae264375bb2064546df82edec660e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/6/d/6d9362373e00cf5ed644e569f5f264a23972393c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/7/6/7693c061385354b0a7b48157fe751d68d91c9c5f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/7/9/79171bf98de1509688762834e90bc0a19ca89772" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/7/f/7fd1f913009711df7d032b0f96ad35550bcc8756" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/8/1/8140ff84d995d7f9dbbc667cb2d824f6b7411130" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/8/8/886bcf7bf7465fb35c67d4f394514d02a8a1e100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/a/0/a0ec0a3dd35aa18b6e5d5bb66b9c1450ee43c1f5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/b/0/b0156363d365a06b58e27717004f9645e1d52423" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/b/5/b5fdc5bbba2c391e37c3984b5a4b0e79cb7f638d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/b/d/bdfc54a2df1aff3c53f4b18a66796dd40d3aebeb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/c/d/cdd5ddc7680489e1dcec56ccb9990677ef908df5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/d/6/d671bdd322bbcdfeab76688894d6d82492606727" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/.idea/sonarlint/securityhotspotstore/e/a/ea7204a00b569b00238f20c8beeedaed0c1b657c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/alertas/Alertas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/alertas/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/auto_acciones/AutoAcciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/auto_acciones/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/data_server/DataServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/data_server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/lluvia/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/lluvia/Lluvia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/notificaciones/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/notificaciones/Notificaciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/temperatura/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/temperatura/Temperatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/viento/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/main/java/org/example/viento/Viento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/test/java/org/example/DataServerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/test/java/org/example/LluviaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/test/java/org/example/NotifyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/test/java/org/example/TemperaturaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/SistemaLluvia/src/test/java/org/example/VientoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ExamenFinal-CC3S2/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/Dados/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad-MocksStubs/MailNotificaciones/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
